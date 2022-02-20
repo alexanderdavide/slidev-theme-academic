@@ -1,5 +1,9 @@
 ---
 theme: ./
+themeConfig:
+  pagination: true
+  paginationX: 'right'
+  paginationY: 'top'
 ---
 
 # Slidev Theme Starter
