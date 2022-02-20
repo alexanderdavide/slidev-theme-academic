@@ -1,0 +1,41 @@
+{
+  "name": "slidev-theme-academic",
+  "build": {
+    "dockerfile": "./vscode-dev-containers/containers/typescript-node/.devcontainer/Dockerfile",
+    "args": {
+      "VARIANT": "16-bullseye"
+    }
+  },
+  "settings": {
+    "sync.syncExtensions": false,
+    "sync.autoDownload": true,
+    "sync.autoUpload": false
+  },
+  "extensions": [
+    "codeshifu.1loc",
+    "dbaeumer.vscode-eslint",
+    "adpyke.codesnap",
+    "codezombiech.gitignore",
+    "dsznajder.es7-react-js-snippets",
+    "eamodio.gitlens",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "hashicorp.terraform",
+    "humao.rest-client",
+    "jcbuisson.vue",
+    "ms-azuretools.vscode-docker",
+    "ms-ossdata.vscode-postgresql",
+    "ms-vscode-remote.remote-containers",
+    "ms-vsliveshare.vsliveshare",
+    "sdras.vue-vscode-snippets",
+    "shan.code-settings-sync",
+    "sleistner.vscode-fileutils",
+    "pustelto.bracketeer",
+    "vscode-icons-team.vscode-icons",
+    "wakatime.vscode-wakatime",
+    "wix.vscode-import-cost"
+  ],
+  "forwardPorts": [3030],
+  "postCreateCommand": "npm install",
+  "remoteUser": "node"
+}
