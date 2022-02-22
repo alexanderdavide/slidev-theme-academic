@@ -39,7 +39,11 @@
         "sans": "Nunito Sans",
         "mono": "Fira Code"
       },
-      "hightlighter": "prism"
+      "hightlighter": "prism",
+      "themeConfig": {
+        "paginationX": "r",
+        "paginationY": "t"
+      }
     }
   }
 }
