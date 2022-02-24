@@ -2,9 +2,9 @@
 theme: ./
 ---
 
-# Slidev Theme Starter
+# slidev-theme-academic
 
-Presentation slides for developers
+Slidev theme with features for academic presentations
 
 <div class="pt-12">
   <span @click="next" class="px-2 p-1 rounded cursor-pointer hover:bg-white hover:bg-opacity-10">
