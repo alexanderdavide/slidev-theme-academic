@@ -1,5 +1,6 @@
 ---
 theme: ./
+hideInToc: true
 ---
 
 # slidev-theme-academic
@@ -13,7 +14,10 @@ Slidev theme with features for academic presentations
 </div>
 
 ---
+layout: table-of-contents
+---
 
+---
 # What is Slidev?
 
 Slidev is a slides maker and presenter designed for developers, consist of the following features.<sup>1</sup>
