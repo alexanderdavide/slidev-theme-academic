@@ -16,7 +16,7 @@ Slidev theme with features for academic presentations
 
 # What is Slidev?
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
+Slidev is a slides maker and presenter designed for developers, consist of the following features.<sup>1</sup>
 
 - 📝 **Text-based** - focus on the content with Markdown, and then style them later
 - 🎨 **Themable** - theme can be shared and used with npm packages
@@ -26,11 +26,9 @@ Slidev is a slides maker and presenter designed for developers, consist of the f
 - 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
 - 🛠 **Hackable** - anything possible on a webpage
 
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
-
+<Footnotes separator>
+  <Footnote :number=1><a href="https://sli.dev/guide/why.html" rel="noreferrer" target="_blank">Slidev</a></Footnote>
+</Footnotes>
 
 ---
 
@@ -38,7 +36,7 @@ Read more about [Why Slidev?](https://sli.dev/guide/why)
 
 Hover on the bottom-left corner to see the navigation's controls panel
 
-### Keyboard Shortcuts
+### Keyboard Shortcuts<sup>1</sup>
 
 |     |     |
 | --- | --- |
@@ -46,6 +44,10 @@ Hover on the bottom-left corner to see the navigation's controls panel
 | <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
 | <kbd>up</kbd> | previous slide |
 | <kbd>down</kbd> | next slide |
+
+<Footnotes separator>
+  <Footnote :number=1><a href="https://sli.dev/guide/navigation.html" rel="noreferrer" target="_blank">Slidev</a></Footnote>
+</Footnotes>
 
 ---
 layout: image-right
@@ -70,6 +72,10 @@ function updateUser(id: number, update: Partial<User>) {
   saveUser(id, newUser)
 }
 ```
+
+<Footnotes footnotesX="l">
+  <Footnote :number=1><a href="https://sli.dev/guide/navigation.html" rel="noreferrer" target="_blank">Slidev</a></Footnote>
+</Footnotes>
 
 ---
 layout: center
