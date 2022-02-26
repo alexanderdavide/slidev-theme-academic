@@ -61,7 +61,7 @@ image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 
 # Code
 
-Use code snippets and get the highlighting directly!
+Use code snippets and get the highlighting directly!<sup>1</sup>
 
 ```ts
 interface User {
@@ -79,7 +79,8 @@ function updateUser(id: number, update: Partial<User>) {
 ```
 
 <Footnotes footnotesX="l">
-  <Footnote :number=1><a href="https://sli.dev/guide/navigation.html" rel="noreferrer" target="_blank">Slidev</a></Footnote>
+  <Footnote :number=1><a href="https://sli.dev/guide/syntax.html#code-blocks" rel="noreferrer" target="_blank">Slidev</a></Footnote>
+  <Footnote :number=2><a href="https://unsplash.com/collections/94734566/slidev" rel="noreferrer" target="_blank">Anthony Fu</a></Footnote>
 </Footnotes>
 
 ---
