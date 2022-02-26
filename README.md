@@ -8,6 +8,7 @@ An academic theme for [Slidev](https://github.com/slidevjs/slidev) that aims to 
 - pagination
 - image captions
 - table of contents
+- cover with metadata
 
 :warning: slidev-theme-academic is work in progress. Feel free to bring in suggestions.
 
