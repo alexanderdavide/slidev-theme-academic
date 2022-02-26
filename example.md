@@ -1,17 +1,18 @@
 ---
 theme: ./
+layout: cover
+author: alexanderdavide
+authorUrl: https://alex-eble.de
+backgroundUrl: /presentation.jpg
+backgroundSource: unsplash
+backgroundSourceUrl: https://images.unsplash.com/photo-1594122230689-45899d9e6f69?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
+class: text-white
 hideInToc: true
 ---
 
 # slidev-theme-academic
 
-Slidev theme with features for academic presentations
-
-<div class="pt-12">
-  <span @click="next" class="px-2 p-1 rounded cursor-pointer hover:bg-white hover:bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
-  </span>
-</div>
+## Slidev theme with features for academic presentations
 
 ---
 layout: table-of-contents
