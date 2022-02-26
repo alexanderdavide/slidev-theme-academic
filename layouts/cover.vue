@@ -32,8 +32,7 @@ const style = computed(() => handleBackground(backgroundUrl, true));
           >{{ author }}</a
         >
         <span v-else-if="author && !authorUrl">{{ author }}</span>
-        <span v-if="author && date">, {{ date }}</span>
-        <span v-else-if="!author && date">{{ date }}</span>
+        <span v-if="date">{{ author && date ? `, ${date}` : date }}</span>
       </span>
     </div>
 
