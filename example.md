@@ -55,8 +55,10 @@ Hover on the bottom-left corner to see the navigation's controls panel
 </Footnotes>
 
 ---
-layout: image-right
-image: 'https://source.unsplash.com/collection/94734566/1920x1080'
+layout: figure-side
+figureCaption: Curated cover image for Slidev
+figureFootnoteNumber: 2
+figureUrl: https://source.unsplash.com/collection/94734566/1920x1080
 ---
 
 # Code
