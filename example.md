@@ -80,7 +80,7 @@ function updateUser(id: number, update: Partial<User>) {
 }
 ```
 
-<Footnotes footnotesX="l">
+<Footnotes footnotesX="l" separator>
   <Footnote :number=1><a href="https://sli.dev/guide/syntax.html#code-blocks" rel="noreferrer" target="_blank">Slidev</a></Footnote>
   <Footnote :number=2><a href="https://unsplash.com/collections/94734566/slidev" rel="noreferrer" target="_blank">Anthony Fu</a></Footnote>
 </Footnotes>
