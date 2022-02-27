@@ -4,7 +4,7 @@
       <slot />
     </div>
     <FigureWithOptionalCaption
-      class="m-auto px-4"
+      class="h-4/5 m-auto px-4"
       :class="{
         'order-first': figureX === 'l',
       }"
