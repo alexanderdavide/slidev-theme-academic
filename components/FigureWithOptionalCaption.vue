@@ -1,10 +1,10 @@
 <template>
-  <div class="grid gap-3">
+  <figure class="grid gap-3">
     <img :alt="caption" :src="url" />
-    <p class="text-center text-xs" v-if="caption">
+    <figcaption class="text-center text-xs" v-if="caption">
       {{ caption }}<sup v-if="footnoteNumber">{{ footnoteNumber }}</sup>
-    </p>
-  </div>
+    </figcaption>
+  </figure>
 </template>
 
 <script setup lang="ts">
