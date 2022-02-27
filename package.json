@@ -15,6 +15,7 @@
     "build": "slidev build example.md",
     "dev": "slidev example.md --open",
     "export": "slidev export example.md",
+    "release": "release-it",
     "screenshot": "slidev export example.md --format png"
   },
   "dependencies": {
@@ -24,7 +25,8 @@
     "theme-vitesse": "^0.1.14"
   },
   "devDependencies": {
-    "@slidev/cli": "^0.28.6"
+    "@slidev/cli": "^0.28.6",
+    "release-it": "^14.12.5"
   },
   "engines": {
     "node": ">=14.0.0",
