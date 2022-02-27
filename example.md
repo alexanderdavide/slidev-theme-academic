@@ -86,6 +86,19 @@ function updateUser(id: number, update: Partial<User>) {
 </Footnotes>
 
 ---
+layout: figure
+figureCaption: Curated cover image for Slidev
+figureFootnoteNumber: 1
+figureUrl: https://source.unsplash.com/collection/94734566/100x100
+---
+
+# Figure
+
+<Footnotes separator>
+  <Footnote :number=1><a href="https://unsplash.com/collections/94734566/slidev" rel="noreferrer" target="_blank">Anthony Fu</a></Footnote>
+</Footnotes>
+
+---
 layout: center
 class: "text-center"
 ---
