@@ -1,7 +1,7 @@
 <template>
-  <figure class="grid gap-3">
-    <img :alt="caption" :src="url" />
-    <figcaption class="text-center text-xs" v-if="caption">
+  <figure class="flex flex-col items-center justify-center">
+    <img :alt="caption" class="max-h-full" :src="url" />
+    <figcaption class="mt-3 text-center text-xs" v-if="caption">
       {{ caption }}<sup v-if="footnoteNumber">{{ footnoteNumber }}</sup>
     </figcaption>
   </figure>
