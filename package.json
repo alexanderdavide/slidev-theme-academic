@@ -8,8 +8,10 @@
   },
   "license": "MIT",
   "keywords": [
+    "academic",
+    "slidev",
     "slidev-theme",
-    "slidev"
+    "slidev-theme-academic"
   ],
   "scripts": {
     "build": "slidev build example.md",
@@ -32,7 +34,6 @@
     "node": ">=14.0.0",
     "slidev": ">=0.19.3"
   },
-  "//": "Learn more: https://sli.dev/themes/write-a-theme.html",
   "slidev": {
     "colorSchema": "both",
     "highlighter": "all",
