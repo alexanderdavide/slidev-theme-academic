@@ -16,7 +16,7 @@
 </template>
 
 <script setup lang="ts">
-const { figureUrl } = withDefaults(
+withDefaults(
   defineProps<{
     figureCaption?: string;
     figureFootnoteNumber?: number;

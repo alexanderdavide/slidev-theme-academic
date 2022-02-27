@@ -8,10 +8,5 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from "vue";
-import { handleBackground } from "../layout-helper";
-
-const props =
-  defineProps<{ caption?: string; footnoteNumber?: number; url: string }>();
-const style = computed(() => handleBackground(props.url));
+defineProps<{ caption?: string; footnoteNumber?: number; url: string }>();
 </script>
