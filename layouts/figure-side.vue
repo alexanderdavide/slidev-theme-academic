@@ -16,9 +16,6 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from "vue";
-import { handleBackground } from "../layout-helper";
-
 const { figureUrl } = withDefaults(
   defineProps<{
     figureCaption?: string;
@@ -28,5 +25,4 @@ const { figureUrl } = withDefaults(
   }>(),
   { figureX: "r" }
 );
-const style = computed(() => handleBackground(figureUrl));
 </script>
