@@ -27,6 +27,7 @@
     "theme-vitesse": "^0.1.14"
   },
   "devDependencies": {
+    "@release-it/conventional-changelog": "^4.2.0",
     "@slidev/cli": "^0.28.6",
     "release-it": "^14.12.5"
   },
