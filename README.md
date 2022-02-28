@@ -1,4 +1,4 @@
-# slidev-theme-academic [![npm](https://img.shields.io/npm/v/slidev-theme-academic?color=blue)](https://www.npmjs.com/package/slidev-theme-academic) ![https://img.shields.io/badge/Conventional%20Commits-Angular-red.svg](https://img.shields.io/badge/Conventional%20Commits-Angular-red.svg)
+# slidev-theme-academic [![npm](https://img.shields.io/npm/v/slidev-theme-academic?color=blue)](https://www.npmjs.com/package/slidev-theme-academic) [![https://img.shields.io/badge/Conventional%20Commits-Angular-red.svg](https://img.shields.io/badge/Conventional%20Commits-Angular-red.svg)](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#-commit-message-guidelines)
 
 An academic theme for [Slidev](https://github.com/slidevjs/slidev) that aims to provide components, layouts and configurations for academic use, such as:
 
