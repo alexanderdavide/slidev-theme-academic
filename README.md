@@ -18,17 +18,29 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 ### cover
 
+![cover](https://user-images.githubusercontent.com/35292572/156066647-8c38b9f9-745f-4b24-9210-275da430115d.png)
+
+### table-of-contents
+
+![table-of-contents](https://user-images.githubusercontent.com/35292572/156066655-86472854-d618-4802-ad5b-1712b22ad17b.png)
+
 ### figure
+
+![figure](https://user-images.githubusercontent.com/35292572/156066665-85553da4-410c-4704-a3d5-a43f465e8fec.png)
 
 ### figure-side
 
-### table-of-contents
+![figure-side](https://user-images.githubusercontent.com/35292572/156066674-a464d9cc-dd17-47b9-92db-a496f94c4299.png)
 
 ## Components
 
 ### Footnotes & Footnote
 
+![Footnotes & Footnote](https://user-images.githubusercontent.com/35292572/156066705-28c687f0-7d1c-4acb-bfdc-f267d397e7c2.png)
+
 ### Pagination
+
+![Pagination](https://user-images.githubusercontent.com/35292572/156066719-86209c2c-c3d3-41d7-ad5a-ced806f7ac46.png)
 
 ## Contributing
 
