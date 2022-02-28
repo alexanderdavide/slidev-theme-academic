@@ -1,5 +1,7 @@
 # Changelog
 
+## [0.1.1](https://github.com/alexanderdavide/slidev-theme-academic/compare/0.1.0...0.1.1) (2022-02-28)
+
 # [0.1.0](https://github.com/alexanderdavide/slidev-theme-academic/compare/7f27086dbac7fde8edf582afda96755595b59664...0.1.0) (2022-02-27)
 
 
