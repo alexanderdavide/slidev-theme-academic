@@ -89,7 +89,7 @@ function updateUser(id: number, update: Partial<User>) {
 layout: figure
 figureCaption: Curated cover image for Slidev
 figureFootnoteNumber: 1
-figureUrl: https://source.unsplash.com/collection/94734566/100x100
+figureUrl: https://source.unsplash.com/collection/94734566/1920x1080
 ---
 
 # Figure
