@@ -27,8 +27,10 @@
     "theme-vitesse": "^0.1.14"
   },
   "devDependencies": {
+    "@iconify-json/mdi": "^1.1.0",
     "@release-it/conventional-changelog": "^4.2.0",
     "@slidev/cli": "^0.28.6",
+    "playwright-chromium": "^1.19.2",
     "release-it": "^14.12.5"
   },
   "engines": {
