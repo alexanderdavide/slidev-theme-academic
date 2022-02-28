@@ -7,51 +7,30 @@ backgroundUrl: /presentation.jpg
 backgroundSource: unsplash
 backgroundSourceUrl: https://images.unsplash.com/photo-1594122230689-45899d9e6f69?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
 class: text-white
-hideInToc: true
 ---
 
-# slidev-theme-academic
+# cover
 
-## Slidev theme with features for academic presentations
+## slidev-theme-academic
 
 ---
 layout: table-of-contents
+hideInToc: false
 ---
 
+# table-of-contents
+
 ---
-# What is Slidev?
+layout: figure
+figureCaption: Curated cover image for Slidev
+figureFootnoteNumber: 1
+figureUrl: https://source.unsplash.com/collection/94734566/1920x1080
+---
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features.<sup>1</sup>
-
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - anything possible on a webpage
+# figure
 
 <Footnotes separator>
-  <Footnote :number=1><a href="https://sli.dev/guide/why.html" rel="noreferrer" target="_blank">Slidev</a></Footnote>
-</Footnotes>
-
----
-
-# Navigation
-
-Hover on the bottom-left corner to see the navigation's controls panel
-
-### Keyboard Shortcuts<sup>1</sup>
-
-|     |     |
-| --- | --- |
-| <kbd>space</kbd> / <kbd>tab</kbd> / <kbd>right</kbd> | next animation or slide |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd> | previous slide |
-| <kbd>down</kbd> | next slide |
-
-<Footnotes separator>
-  <Footnote :number=1><a href="https://sli.dev/guide/navigation.html" rel="noreferrer" target="_blank">Slidev</a></Footnote>
+  <Footnote :number=1><a href="https://unsplash.com/collections/94734566/slidev" rel="noreferrer" target="_blank">Anthony Fu</a></Footnote>
 </Footnotes>
 
 ---
@@ -61,7 +40,7 @@ figureFootnoteNumber: 2
 figureUrl: https://source.unsplash.com/collection/94734566/1920x1080
 ---
 
-# Code
+# figure-side
 
 Use code snippets and get the highlighting directly!<sup>1</sup>
 
@@ -86,16 +65,19 @@ function updateUser(id: number, update: Partial<User>) {
 </Footnotes>
 
 ---
-layout: figure
-figureCaption: Curated cover image for Slidev
-figureFootnoteNumber: 1
-figureUrl: https://source.unsplash.com/collection/94734566/1920x1080
+layout: center
+class: "text-center"
 ---
 
-# Figure
+# Footnotes & Footnote
+
+<span class="font-light">
+  <q>Give credit where credit is due</q>
+  <sup>1</sup>
+</span>
 
 <Footnotes separator>
-  <Footnote :number=1><a href="https://unsplash.com/collections/94734566/slidev" rel="noreferrer" target="_blank">Anthony Fu</a></Footnote>
+  <Footnote :number=1>Smart person</Footnote>
 </Footnotes>
 
 ---
@@ -103,6 +85,22 @@ layout: center
 class: "text-center"
 ---
 
-# Learn More
+# Pagination
 
-[Documentations](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
+<span class="font-light">Enabled by default</span>
+
+<img
+  class="absolute transform rotate-z-180 -top-0.9 -right-21.5 w-36"
+  src="/box.svg"
+/>
+
+<p class="absolute font-light right-14 transform rotate-8 top-4">Here!</p>
+
+---
+layout: center
+class: "text-center"
+---
+
+# Documentation
+
+<a class="font-light" href="https://github.com/alexanderdavide/slidev-theme-academic" rel="noreferrer" target="_blank">GitHub <mdi-github /></a>
