@@ -21,7 +21,7 @@ export default {
       validator: (value) => value === "l" || value === "r",
     },
     paginationY: {
-      default: "b",
+      default: "t",
       type: String,
       validator: (value) => value === "t" || value === "b",
     },
