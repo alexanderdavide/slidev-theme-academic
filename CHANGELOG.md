@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.2](https://github.com/alexanderdavide/slidev-theme-academic/compare/0.1.1...0.1.2) (2022-03-01)
+
+
+### Bug Fixes
+
+* equally distribute space between content and figure ([0e2af8c](https://github.com/alexanderdavide/slidev-theme-academic/commit/0e2af8cdb295906b0ee005c13d9b176606a26c94))
+* set default of paginationY to top ([25d8071](https://github.com/alexanderdavide/slidev-theme-academic/commit/25d807107c89e00c1ba88ca79b98c1cf72d486c2))
+
 ## [0.1.1](https://github.com/alexanderdavide/slidev-theme-academic/compare/0.1.0...0.1.1) (2022-02-28)
 
 ## [0.1.0](https://github.com/alexanderdavide/slidev-theme-academic/compare/7f27086dbac7fde8edf582afda96755595b59664...0.1.0) (2022-02-27)
