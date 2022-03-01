@@ -1,10 +1,10 @@
 <template>
   <div class="flex h-full">
-    <div class="slidev-layout default">
+    <div class="slidev-layout default flex-1">
       <slot />
     </div>
     <FigureWithOptionalCaption
-      class="h-4/5 m-auto px-4"
+      class="flex-1 h-4/5 m-auto px-4"
       :class="{
         'order-first': figureX === 'l',
       }"
