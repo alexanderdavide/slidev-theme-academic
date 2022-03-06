@@ -1,0 +1,44 @@
+name: deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v3
+      - name: setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: install
+        run: npm ci
+      - name: build
+        run: npm run build
+      - name: upload build
+        uses: actions/upload-artifact@v3
+        with:
+          name: build
+          path: dist
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: download build
+        uses: actions/download-artifact@v3
+        with:
+          name: build
+          path: dist
+      - name: deploy upstream
+        uses: sebastianpopp/ftp-action@releases/v2
+        with:
+          host: ${{ secrets.UPSTREAM_HOST_URL }}
+          localDir: dist
+          password: ${{ secrets.UPSTREAM_PASSWORD }}
+          remoteDir: htdocs/${{ secrets.APEX_DOMAIN_URI }}/${{ secrets.SUBDOMAIN_URI }}
+          username: ${{ secrets.UPSTREAM_USERNAME }}
+          options: "--delete"
