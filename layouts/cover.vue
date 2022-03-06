@@ -6,10 +6,10 @@ const { backgroundUrl } = withDefaults(
   defineProps<{
     author?: string;
     authorUrl?: string;
-    date?: string | Date;
     backgroundUrl?: string;
     backgroundSource?: string;
     backgroundSourceUrl?: string;
+    date?: string | Date;
   }>(),
   { date: new Date().toLocaleDateString() }
 );
