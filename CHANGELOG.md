@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.2.0](https://github.com/alexanderdavide/slidev-theme-academic/compare/0.1.2...0.2.0) (2022-03-06)
+
+
+### Features
+
+* add presentation info ([915934c](https://github.com/alexanderdavide/slidev-theme-academic/commit/915934ca5a20199c4101ba35ae1c86ac18c7238f))
+* configure title ([b7bd429](https://github.com/alexanderdavide/slidev-theme-academic/commit/b7bd4293336a35eb4c3dff5aab3f7e9ea1cd3a1a))
+
+
+### Bug Fixes
+
+* use correct user parameter ([5bde6b1](https://github.com/alexanderdavide/slidev-theme-academic/commit/5bde6b16a584e2ecfce6fe59cd6ea7aa1b9ec048))
+
+
+### Reverts
+
+* Revert "ci: temporarily remove deploy workflow branch filter for testing" ([66a74de](https://github.com/alexanderdavide/slidev-theme-academic/commit/66a74de0f3782b53253ad327e16c753ea3ead959))
+* Revert "ci: temporarily remove deploy workflow branch filter for testing" ([294f3ec](https://github.com/alexanderdavide/slidev-theme-academic/commit/294f3ec496b9c4948792462d60ddbc93ff0c093b))
+
 ## [0.1.2](https://github.com/alexanderdavide/slidev-theme-academic/compare/0.1.1...0.1.2) (2022-03-01)
 
 
