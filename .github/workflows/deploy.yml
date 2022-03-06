@@ -37,5 +37,5 @@ jobs:
           localDir: dist
           password: ${{ secrets.UPSTREAM_PASSWORD }}
           remoteDir: htdocs/${{ secrets.APEX_DOMAIN_URI }}/${{ secrets.SUBDOMAIN_URI }}
-          username: ${{ secrets.UPSTREAM_USERNAME }}
+          user: ${{ secrets.UPSTREAM_USERNAME }}
           options: "--delete"
