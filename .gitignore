@@ -6,3 +6,8 @@ index.html
 .remote-assets
 .idea/
 components.d.ts
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
