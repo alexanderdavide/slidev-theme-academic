@@ -31,7 +31,7 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 ### table-of-contents
 
-`table-of-contents` puts custom content above the table of contents. This defaults to `<h1>Table of Contents</h1>` if none is given.
+`table-of-contents` puts custom content above the table of contents. If none is given, the content defaults to `<h1>Table of Contents</h1>`.
 
 ![table-of-contents](https://user-images.githubusercontent.com/35292572/156066655-86472854-d618-4802-ad5b-1712b22ad17b.png)
 
