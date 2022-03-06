@@ -90,7 +90,7 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 ## Contributing
 
-- `npm install`
+- `npm run setup`
 - `npm run dev` to start theme preview of `example.md`
 - Edit the `example.md` and style to see the changes
 - `npm run export` to generate the preview PDF
