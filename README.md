@@ -18,7 +18,7 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 ### cover
 
-| **Parameter name**    | **Type** | **Default**                       | **Notes**                                                                         |
+| **Parameter**         | **Type** | **Default**                       | **Notes**                                                                         |
 | --------------------- | -------- | --------------------------------- | --------------------------------------------------------------------------------- |
 | `author`              | String   | `undefined`                       | -                                                                                 |
 | `authorUrl`           | String   | `undefined`                       | -                                                                                 |
@@ -37,7 +37,7 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 ### figure
 
-| **Parameter name**       | **Type** | **Default** | **Notes**                |
+| **Parameter**            | **Type** | **Default** | **Notes**                |
 | ------------------------ | -------- | ----------- | ------------------------ |
 | `figureCaption`          | String   | `undefined` | -                        |
 | `figureFootnoteNumber`   | Number   | `undefined` | Align with a `Footnote`. |
@@ -47,7 +47,7 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 ### figure-side
 
-| **Parameter name**       | **Type** | **Values**   | **Default** | **Notes**                |
+| **Parameter**            | **Type** | **Values**   | **Default** | **Notes**                |
 | ------------------------ | -------- | ------------ | ----------- | ------------------------ |
 | `figureCaption`          | String   | -            | `undefined` | -                        |
 | `figureFootnoteNumber`   | Number   | -            | `undefined` | Align with a `Footnote`. |
@@ -62,18 +62,18 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 `Footnotes` is to be used as parent of `Footnote` children.
 
-| **Parameter name** | **Type** | **Values**      | **Default** |
-| ------------------ | -------- | --------------- | ----------- |
-| `footnotesX`       | String   | `'l'`, `'r'`    | `'r'`       |
-| `separator`        | Boolean  | `true`, `false` | `false`     |
+| **Parameter** | **Type** | **Values**      | **Default** |
+| ------------- | -------- | --------------- | ----------- |
+| `footnotesX`  | String   | `'l'`, `'r'`    | `'r'`       |
+| `separator`   | Boolean  | `true`, `false` | `false`     |
 
 ### Footnote
 
 `Footnote` is to be used as children of a `Footnotes` parent.
 
-| **Parameter name** | **Type** | **Notes**                                         |
-| ------------------ | -------- | ------------------------------------------------- |
-| `number`           | Number   | Align with an attribution in the slides' content. |
+| **Parameter** | **Type** | **Notes**                                         |
+| ------------- | -------- | ------------------------------------------------- |
+| `number`      | Number   | Align with an attribution in the slides' content. |
 
 ![Footnotes & Footnote](https://user-images.githubusercontent.com/35292572/156066705-28c687f0-7d1c-4acb-bfdc-f267d397e7c2.png)
 
@@ -81,10 +81,10 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 `Pagination` is rendered globally by default. It is configurable inside the `themeConfig` block in the frontmatter of the first slide.
 
-| **Parameter name** | **Type** | **Values**   | **Default** | **Notes**                                                                                                                                          |
-| ------------------ | -------- | ------------ | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `paginationX`      | String   | `'l'`, `'r'` | `'r'`       | To disable global default rending, set both `paginationX` and `paginationY` to `undefined`. `Pagination` can then still be used on selected pages. |
-| `paginationY`      | String   | `'b'`, `'t'` | `'t'`       | To disable global default rending, set both `paginationX` and `paginationY` to `undefined`. `Pagination` can then still be used on selected pages. |
+| **Parameter** | **Type** | **Values**   | **Default** | **Notes**                                                                                                                                          |
+| ------------- | -------- | ------------ | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `paginationX` | String   | `'l'`, `'r'` | `'r'`       | To disable global default rending, set both `paginationX` and `paginationY` to `undefined`. `Pagination` can then still be used on selected pages. |
+| `paginationY` | String   | `'b'`, `'t'` | `'t'`       | To disable global default rending, set both `paginationX` and `paginationY` to `undefined`. `Pagination` can then still be used on selected pages. |
 
 ![Pagination](https://user-images.githubusercontent.com/35292572/156066719-86209c2c-c3d3-41d7-ad5a-ced806f7ac46.png)
 
