@@ -12,8 +12,9 @@
     "sync.autoUpload": false
   },
   "extensions": [
-    "codeshifu.1loc",
     "adpyke.codesnap",
+    "antfu.slidev",
+    "codeshifu.1loc",
     "codezombiech.gitignore",
     "eamodio.gitlens",
     "editorconfig.editorconfig",
