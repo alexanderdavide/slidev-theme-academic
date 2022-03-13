@@ -1,11 +1,18 @@
 {
   "name": "slidev-theme-academic",
+  "description": "Academic presentations with Slidev made simple",
   "version": "0.2.0",
   "author": {
     "name": "Alexander Eble",
     "email": "mail@alex-eble.de",
     "url": "https://www.alex-eble.de"
   },
+  "homepage": "https://slidev-theme-academic.alex-eble.de",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexanderdavide/slidev-theme-academic"
+  },
+  "funding": "https://ko-fi.com/alexanderdavide",
   "license": "MIT",
   "keywords": [
     "academic",
