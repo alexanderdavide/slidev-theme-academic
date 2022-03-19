@@ -1,4 +1,4 @@
-# slidev-theme-academic [![npm](https://img.shields.io/npm/v/slidev-theme-academic?color=blue)](https://www.npmjs.com/package/slidev-theme-academic) ![npm](https://img.shields.io/npm/dw/slidev-theme-academic?color=blue) [![https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://www.conventionalcommits.org/) [![demo website status](https://img.shields.io/website?down_color=red&up_color=green&label=demo&url=https%3A%2F%2Fslidev-theme-academic.alex-eble.de)](https://slidev-theme-academic.alex-eble.de)
+# slidev-theme-academic [![npm](https://img.shields.io/npm/v/slidev-theme-academic?color=blue)](https://www.npmjs.com/package/slidev-theme-academic) ![npm](https://img.shields.io/npm/dw/slidev-theme-academic?color=blue) [![https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://www.conventionalcommits.org/)
 
 Simplifies creating academic presentations with [Slidev](https://github.com/slidevjs/slidev) by providing the necessary components and layouts.
 
