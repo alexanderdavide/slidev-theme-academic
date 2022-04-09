@@ -1,22 +1,3 @@
-<script setup lang="ts">
-import { computed } from "vue";
-import { handleBackground } from "../layout-helper";
-
-const { backgroundUrl } = withDefaults(
-  defineProps<{
-    author?: string;
-    authorUrl?: string;
-    backgroundUrl?: string;
-    backgroundSource?: string;
-    backgroundSourceUrl?: string;
-    date?: string | Date;
-  }>(),
-  { date: new Date().toLocaleDateString() }
-);
-
-const style = computed(() => handleBackground(backgroundUrl, true));
-</script>
-
 <template>
   <div class="slidev-layout cover" :style="style">
     <div class="my-auto w-full">
@@ -37,3 +18,22 @@ const style = computed(() => handleBackground(backgroundUrl, true));
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+import { computed } from "vue";
+import { handleBackground } from "../layout-helper";
+
+const { backgroundUrl } = withDefaults(
+  defineProps<{
+    author?: string;
+    authorUrl?: string;
+    backgroundUrl?: string;
+    backgroundSource?: string;
+    backgroundSourceUrl?: string;
+    date?: string | Date;
+  }>(),
+  { date: new Date().toLocaleDateString() }
+);
+
+const style = computed(() => handleBackground(backgroundUrl, true));
+</script>

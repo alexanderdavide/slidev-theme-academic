@@ -5,12 +5,8 @@
   </li>
 </template>
 
-<script>
-export default {
-  props: {
-    number: {
-      type: Number,
-    },
-  },
-};
+<script setup lang="ts">
+defineProps<{
+  number?: number;
+}>();
 </script>

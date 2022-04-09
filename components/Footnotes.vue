@@ -13,18 +13,18 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: {
-    footnotesX: {
-      default: "r",
-      type: String,
-      validator: (value) => value === "l" || value === "r",
-    },
-    separator: {
-      default: false,
-      type: Boolean,
-    },
+<script setup lang="ts">
+import { PropType } from "vue";
+
+defineProps({
+  footnotesX: {
+    default: "r",
+    type: String as PropType<"l" | "r">,
+    validator: (value) => value === "l" || value === "r",
   },
-};
+  separator: {
+    default: false,
+    type: Boolean,
+  },
+});
 </script>
