@@ -13,18 +13,18 @@
 </template>
 
 <script setup lang="ts">
-import { PropType } from "vue";
+import { PropType } from 'vue';
 
 defineProps({
   paginationX: {
-    default: "r",
-    type: String as PropType<"l" | "r">,
-    validator: (value) => value === "l" || value === "r",
+    default: 'r',
+    type: String as PropType<'l' | 'r'>,
+    validator: (value) => value === 'l' || value === 'r',
   },
   paginationY: {
-    default: "t",
-    type: String as PropType<"b" | "t">,
-    validator: (value) => value === "b" || value === "t",
+    default: 't',
+    type: String as PropType<'b' | 't'>,
+    validator: (value) => value === 'b' || value === 't',
   },
 });
 </script>

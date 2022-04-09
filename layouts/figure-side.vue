@@ -21,8 +21,8 @@ withDefaults(
     figureCaption?: string;
     figureFootnoteNumber?: number;
     figureUrl: string;
-    figureX?: "l" | "r";
+    figureX?: 'l' | 'r';
   }>(),
-  { figureX: "r" }
+  { figureX: 'r' },
 );
 </script>
