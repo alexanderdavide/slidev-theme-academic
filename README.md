@@ -79,12 +79,15 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 ### Pagination
 
-`Pagination` is rendered globally by default. It is configurable inside the `themeConfig` block in the frontmatter of the first slide.
+`Pagination` is rendered globally by default. The global configuration can be defined using [`themeConfig`](#themeconfig).
 
-| **Parameter** | **Type** | **Values**   | **Default** | **Notes**                                                                                                                                          |
-| ------------- | -------- | ------------ | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `paginationX` | String   | `'l'`, `'r'` | `'r'`       | To disable global default rending, set both `paginationX` and `paginationY` to `undefined`. `Pagination` can then still be used on selected pages. |
-| `paginationY` | String   | `'b'`, `'t'` | `'t'`       | To disable global default rending, set both `paginationX` and `paginationY` to `undefined`. `Pagination` can then still be used on selected pages. |
+If certain slides need individual configurations of `Pagination`, exclude them from global rendering of `Pagination` using [`themeConfig`](#themeconfig) and add `Pagination` manually.
+
+| **Parameter** | **Type**      | **Values**   | **Default** | **Notes**                                                                                    |
+| ------------- | ------------- | ------------ | ----------- | -------------------------------------------------------------------------------------------- |
+| `classNames`  | Array, String | -            | `undefined` | `Pagination` by default uses the color given by the color schema currently active in Slidev. |
+| `paginationX` | String        | `'l'`, `'r'` | `'r'`       | -                                                                                            |
+| `paginationY` | String        | `'b'`, `'t'` | `'t'`       | -                                                                                            |
 
 ![Pagination](https://user-images.githubusercontent.com/35292572/156066719-86209c2c-c3d3-41d7-ad5a-ced806f7ac46.png)
 
