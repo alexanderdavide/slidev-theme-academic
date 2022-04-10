@@ -99,7 +99,7 @@ Be aware that defining the `themeConfig` block initializes all parameters as `un
 
 | **Parameter**             | **Type** | **Values**   | **Default** | **Notes**                                                                                                                                          |
 | ------------------------- | -------- | ------------ | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `paginationPagesDisabled` | Array    | -            | `undefined` | Disables global rendering of `Pagination` for the given slide numbers.                                                                             |
+| `paginationPagesDisabled` | Array    | -            | `undefined` | Disable global rendering of `Pagination` for slides having individual `Pagination`.                                                                |
 | `paginationX`             | String   | `'l'`, `'r'` | `'r'`       | To disable global default rending, set both `paginationX` and `paginationY` to `undefined`. `Pagination` can then still be used on selected pages. |
 | `paginationY`             | String   | `'b'`, `'t'` | `'t'`       | To disable global default rending, set both `paginationX` and `paginationY` to `undefined`. `Pagination` can then still be used on selected pages. |
 
