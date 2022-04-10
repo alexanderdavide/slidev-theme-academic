@@ -81,7 +81,7 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 `Pagination` is rendered globally by default. The global configuration can be defined using [`themeConfig`](#themeconfig).
 
-If certain slides need individual configurations of `Pagination`, exclude them from global rendering of `Pagination` using [`themeConfig`](#themeconfig) and add `Pagination` manually.
+If certain slides need individual configuration of `Pagination`, exclude them from global rendering of `Pagination` using [`themeConfig`](#themeconfig) and add `Pagination` manually.
 
 | **Parameter** | **Type**      | **Values**   | **Default** | **Notes**                                                                                    |
 | ------------- | ------------- | ------------ | ----------- | -------------------------------------------------------------------------------------------- |
@@ -93,9 +93,9 @@ If certain slides need individual configurations of `Pagination`, exclude them f
 
 ## themeConfig
 
-Global parameters of the theme can be set using the [`themeConfig`](#themeConfig) block in the frontmatter of the first slide.
+Global parameters of the theme can be set using the `themeConfig` block in the frontmatter of the first slide.
 
-Be aware that defining the `themeConfig` block initializes all parameters as `undefined`; hence you may need to set parameters albeit using the default.
+Be aware that defining the `themeConfig` block initializes all parameters as `undefined`; hence you may need to set parameters albeit using defaults.
 
 | **Parameter**             | **Type** | **Values**   | **Default** | **Notes**                                                                                                                                          |
 | ------------------------- | -------- | ------------ | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
