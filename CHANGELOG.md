@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.0](https://github.com/alexanderdavide/slidev-theme-academic/compare/0.2.1...0.3.0) (2022-04-10)
+
+
+### Features
+
+* allow disabling rendering of global pagination for specific slides ([8211c15](https://github.com/alexanderdavide/slidev-theme-academic/commit/8211c15a57b41588bcc3e3fe6ae3b6363a702e9b))
+* enable styling pagination by transferring class names ([50827da](https://github.com/alexanderdavide/slidev-theme-academic/commit/50827daabfa792967d94480eedb84f5132b2df67))
+
 ### [0.2.1](https://github.com/alexanderdavide/slidev-theme-academic/compare/0.2.0...0.2.1) (2022-03-13)
 
 ## [0.2.0](https://github.com/alexanderdavide/slidev-theme-academic/compare/0.1.2...0.2.0) (2022-03-06)
