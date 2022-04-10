@@ -91,6 +91,18 @@ If certain slides need individual configurations of `Pagination`, exclude them f
 
 ![Pagination](https://user-images.githubusercontent.com/35292572/156066719-86209c2c-c3d3-41d7-ad5a-ced806f7ac46.png)
 
+## themeConfig
+
+Global parameters of the theme can be set using the [`themeConfig`](#themeConfig) block in the frontmatter of the first slide.
+
+Be aware that defining the `themeConfig` block initializes all parameters as `undefined`; hence you may need to set parameters albeit using the default.
+
+| **Parameter**             | **Type** | **Values**   | **Default** | **Notes**                                                                                                                                          |
+| ------------------------- | -------- | ------------ | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `paginationPagesDisabled` | Array    | -            | `undefined` | Disables global rendering of `Pagination` for the given slide numbers.                                                                             |
+| `paginationX`             | String   | `'l'`, `'r'` | `'r'`       | To disable global default rending, set both `paginationX` and `paginationY` to `undefined`. `Pagination` can then still be used on selected pages. |
+| `paginationY`             | String   | `'b'`, `'t'` | `'t'`       | To disable global default rending, set both `paginationX` and `paginationY` to `undefined`. `Pagination` can then still be used on selected pages. |
+
 ## Contributing
 
 - `npm run setup`
