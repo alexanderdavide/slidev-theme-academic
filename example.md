@@ -7,6 +7,10 @@ backgroundUrl: /presentation.jpg
 backgroundSource: unsplash
 backgroundSourceUrl: https://images.unsplash.com/photo-1594122230689-45899d9e6f69?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
 class: text-white
+themeConfig:
+  paginationX: r
+  paginationY: t
+  paginationPagesDisabled: [1]
 title: slidev-theme-academic
 info: |
   # slidev-theme-academic
@@ -17,10 +21,6 @@ info: |
   - [npm](https://www.npmjs.com/package/slidev-theme-academic)
 
   slidev-theme-academic is licensed under [MIT](https://github.com/alexanderdavide/slidev-theme-academic/blob/master/LICENSE).
-themeConfig:
-  paginationX: r
-  paginationY: t
-  paginationPagesDisabled: [1]
 ---
 
 # cover
