@@ -1,21 +1,18 @@
 <template>
-  <div
-    class="fixed p-2 text-xs"
-    v-bind:class="{
-      'left-0': paginationX === 'l',
-      'right-0': paginationX === 'r',
-      'top-0': paginationY === 't',
-      'bottom-0': paginationY === 'b',
-    }"
-  >
-    <SlideCurrentNo /> / <SlidesTotal />
-  </div>
+  <div class="fixed p-2 text-xs" :class="classNames"><SlideCurrentNo /> / <SlidesTotal /></div>
 </template>
 
 <script setup lang="ts">
-import { PropType } from 'vue';
+import { computed, PropType } from 'vue';
 
-defineProps({
+const {
+  classNames: classNamesTransferred,
+  paginationX,
+  paginationY,
+} = defineProps({
+  classNames: {
+    type: [Array, String] as PropType<string[] | string>,
+  },
   paginationX: {
     default: 'r',
     type: String as PropType<'l' | 'r'>,
@@ -27,4 +24,16 @@ defineProps({
     validator: (value) => value === 'b' || value === 't',
   },
 });
+
+const classNames = computed(() => [
+  ...(classNamesTransferred
+    ? Array.isArray(classNamesTransferred)
+      ? classNamesTransferred
+      : [classNamesTransferred]
+    : []),
+  paginationX === 'l' && 'left-0',
+  paginationX === 'r' && 'right-0',
+  paginationY === 't' && 'top-0',
+  paginationY === 'b' && 'bottom-0',
+]);
 </script>
