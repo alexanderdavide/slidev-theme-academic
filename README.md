@@ -54,7 +54,7 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 | `figureUrl`<sup>\*</sup> | String   | -            | `undefined` | -                        |
 | `figureX`                | String   | `'l'`, `'r'` | `'r'`       | -                        |
 
-![04](https://user-images.githubusercontent.com/35292572/156252099-12a05678-d315-4b86-9540-c5668c4d8335.png)
+![figure-side](https://user-images.githubusercontent.com/35292572/156252099-12a05678-d315-4b86-9540-c5668c4d8335.png)
 
 ## Components
 
