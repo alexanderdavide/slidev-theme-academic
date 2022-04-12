@@ -45,7 +45,7 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 | -------------- | ---------------------------------------- | ----------- | --------- |
 | `indexEntries` | `[{ pageNumber: number, title:string }]` | `undefined` | -         |
 
-![figure](https://user-images.githubusercontent.com/35292572/156066665-85553da4-410c-4704-a3d5-a43f465e8fec.png)
+![index](https://user-images.githubusercontent.com/35292572/163047644-c3a7193a-90cb-4a5e-b5b6-c0ff2439c210.png)
 
 ### figure
 
