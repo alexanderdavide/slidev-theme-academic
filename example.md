@@ -37,6 +37,13 @@ hideInToc: false
 # table-of-contents
 
 ---
+layout: index
+indexEntries: [{ pageNumber: 4, title: "Curated cover image for Slidev"}, { pageNumber: 5, title: "Curated cover image for Slidev"}]
+---
+
+# index
+
+---
 layout: figure
 figureCaption: Curated cover image for Slidev
 figureFootnoteNumber: 1
