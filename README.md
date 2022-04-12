@@ -35,6 +35,18 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 ![table-of-contents](https://user-images.githubusercontent.com/35292572/156066655-86472854-d618-4802-ad5b-1712b22ad17b.png)
 
+### index
+
+`index` can be used as a general list for figures, tables etc..
+
+`index` puts custom content above the list. If none is given, the content defaults to `<h1>Index</h1>`.
+
+| **Parameter**  | **Type**                                 | **Default** | **Notes** |
+| -------------- | ---------------------------------------- | ----------- | --------- |
+| `indexEntries` | `[{ pageNumber: number, title:string }]` | `undefined` | -         |
+
+![figure](https://user-images.githubusercontent.com/35292572/156066665-85553da4-410c-4704-a3d5-a43f465e8fec.png)
+
 ### figure
 
 | **Parameter**            | **Type** | **Default** | **Notes**                |
