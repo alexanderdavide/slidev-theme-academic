@@ -7,18 +7,18 @@ import { computed, PropType } from 'vue';
 
 const {
   classNames: classNamesTransferred,
-  paginationX,
-  paginationY,
+  x,
+  y,
 } = defineProps({
   classNames: {
     type: [Array, String] as PropType<string[] | string>,
   },
-  paginationX: {
+  x: {
     default: 'r',
     type: String as PropType<'l' | 'r'>,
     validator: (value) => value === 'l' || value === 'r',
   },
-  paginationY: {
+  y: {
     default: 't',
     type: String as PropType<'b' | 't'>,
     validator: (value) => value === 'b' || value === 't',
@@ -31,9 +31,9 @@ const classNames = computed(() => [
       ? classNamesTransferred
       : [classNamesTransferred]
     : []),
-  paginationX === 'l' && 'left-0',
-  paginationX === 'r' && 'right-0',
-  paginationY === 't' && 'top-0',
-  paginationY === 'b' && 'bottom-0',
+  x === 'l' && 'left-0',
+  x === 'r' && 'right-0',
+  y === 't' && 'top-0',
+  y === 'b' && 'bottom-0',
 ]);
 </script>

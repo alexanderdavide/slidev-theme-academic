@@ -64,7 +64,7 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 | **Parameter** | **Type** | **Values**      | **Default** |
 | ------------- | -------- | --------------- | ----------- |
-| `footnotesX`  | String   | `'l'`, `'r'`    | `'r'`       |
+| `x`           | String   | `'l'`, `'r'`    | `'r'`       |
 | `separator`   | Boolean  | `true`, `false` | `false`     |
 
 ### Footnote
@@ -86,8 +86,8 @@ If certain pages need individual configuration of `Pagination`, exclude them fro
 | **Parameter** | **Type**      | **Values**   | **Default** | **Notes**                                                                                    |
 | ------------- | ------------- | ------------ | ----------- | -------------------------------------------------------------------------------------------- |
 | `classNames`  | Array, String | -            | `undefined` | `Pagination` by default uses the color given by the color schema currently active in Slidev. |
-| `paginationX` | String        | `'l'`, `'r'` | `'r'`       | -                                                                                            |
-| `paginationY` | String        | `'b'`, `'t'` | `'t'`       | -                                                                                            |
+| `x`           | String        | `'l'`, `'r'` | `'r'`       | -                                                                                            |
+| `y`           | String        | `'b'`, `'t'` | `'t'`       | -                                                                                            |
 
 ![Pagination](https://user-images.githubusercontent.com/35292572/156066719-86209c2c-c3d3-41d7-ad5a-ced806f7ac46.png)
 

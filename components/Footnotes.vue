@@ -4,8 +4,8 @@
     <ul
       class="flex flex-wrap !list-none p-2"
       v-bind:class="{
-        'justify-start': footnotesX === 'l',
-        'justify-end': footnotesX === 'r',
+        'justify-start': x === 'l',
+        'justify-end': x === 'r',
       }"
     >
       <slot />
@@ -17,7 +17,7 @@
 import { PropType } from 'vue';
 
 defineProps({
-  footnotesX: {
+  x: {
     default: 'r',
     type: String as PropType<'l' | 'r'>,
     validator: (value) => value === 'l' || value === 'r',
