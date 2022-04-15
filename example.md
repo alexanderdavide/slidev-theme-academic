@@ -38,7 +38,9 @@ hideInToc: false
 
 ---
 layout: index
-indexEntries: [{ pageNumber: 4, title: "Curated cover image for Slidev"}, { pageNumber: 5, title: "Curated cover image for Slidev"}]
+indexEntries:
+  - { pageNumber: 4, title: "Curated cover image for Slidev" }
+  - { pageNumber: 5, title: "Curated cover image for Slidev" }
 ---
 
 # index
