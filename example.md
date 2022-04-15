@@ -39,11 +39,13 @@ hideInToc: false
 ---
 layout: index
 indexEntries:
-  - { pageNumber: 4, title: "Curated cover image for Slidev" }
-  - { pageNumber: 5, title: "Curated cover image for Slidev" }
+  - { title: "Curated cover image for Slidev", uri: 4 }
+  - { title: "Curated cover image for Slidev", uri: 5 }
 ---
 
 # index
+
+`index` used as list of figures:
 
 ---
 layout: figure
@@ -108,10 +110,14 @@ class: "text-center"
 <p class="absolute font-light right-14 transform rotate-8 top-4">Here!</p>
 
 ---
-layout: center
-class: "text-center"
+layout: index
+indexEntries:
+  - { title: "GitHub", uri: "https://github.com/alexanderdavide/slidev-theme-academic" }
+  - { title: "npm", uri: "https://www.npmjs.com/package/slidev-theme-academic" }
+  - { title: "Slidev", uri: "https://sli.dev" }
+indexRedirectType: external
 ---
 
-# Documentation
+# index
 
-<a class="font-light" href="https://github.com/alexanderdavide/slidev-theme-academic" rel="noreferrer" target="_blank">GitHub <mdi-github /></a>
+`index` used as a list of references
