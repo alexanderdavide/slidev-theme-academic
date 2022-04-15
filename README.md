@@ -46,7 +46,7 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 | `indexEntries`<sup>\*</sup> | `{ title: string, uri?: number \| string }[]` | `undefined` | Specify `uri` as a page number or optional URL in accordance with `indexRedirectType`. |
 | `indexRedirectType`         | `external \| internal`                        | `internal`  | -                                                                                      |
 
-![index](https://user-images.githubusercontent.com/35292572/163047644-c3a7193a-90cb-4a5e-b5b6-c0ff2439c210.png)
+![index](https://user-images.githubusercontent.com/35292572/163581672-d76ea111-f35c-4c24-a6a5-bc4fd71cccc8.png)
 
 ### figure
 
