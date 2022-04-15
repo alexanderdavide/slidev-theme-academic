@@ -1,23 +1,38 @@
 <template>
   <div class="slidev-layout">
     <slot> <h1>Index</h1> </slot>
-    <TocList :level="1" :list="indexEntries" />
+    <TocList v-if="indexEntriesInternal" :level="1" :list="indexEntriesInternal" />
+    <ol v-else>
+      <li v-for="{ uri, title } in indexEntries" :key="title">
+        <TextWithOptionalLink :link="uri" :text="title" />
+      </li>
+    </ol>
   </div>
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue';
+import { computed, PropType } from 'vue';
 
-const { indexEntries: indexEntriesTransferred } = defineProps<{
-  indexEntries: [{ pageNumber: number; title: string }];
-}>();
+const { indexEntries, indexRedirectType } = defineProps({
+  indexEntries: {
+    type: Array as PropType<{ title: string; uri?: number | string }[]>,
+    required: true,
+  },
+  indexRedirectType: {
+    default: 'internal',
+    type: String as PropType<'external' | 'internal'>,
+    validator: (value) => value === 'external' || value === 'internal',
+  },
+});
 
-const indexEntries = computed(() =>
-  indexEntriesTransferred.map(({ pageNumber, title }) => ({
-    children: [],
-    level: 1,
-    path: pageNumber.toString(),
-    title,
-  })),
-);
+const indexEntriesInternal =
+  indexRedirectType === 'internal' &&
+  computed(() =>
+    indexEntries.map(({ title, uri }) => ({
+      children: [],
+      level: 1,
+      path: uri.toString(),
+      title,
+    })),
+  );
 </script>
