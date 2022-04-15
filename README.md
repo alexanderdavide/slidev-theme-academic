@@ -41,9 +41,9 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 `index` puts custom content above the list. If none is given, the content defaults to `<h1>Index</h1>`.
 
-| **Parameter**  | **Type**                                 | **Default** | **Notes** |
-| -------------- | ---------------------------------------- | ----------- | --------- |
-| `indexEntries` | `[{ pageNumber: number, title:string }]` | `undefined` | -         |
+| **Parameter**               | **Type**                                 | **Default** | **Notes** |
+| --------------------------- | ---------------------------------------- | ----------- | --------- |
+| `indexEntries`<sup>\*</sup> | `[{ pageNumber: number, title:string }]` | `undefined` | -         |
 
 ![index](https://user-images.githubusercontent.com/35292572/163047644-c3a7193a-90cb-4a5e-b5b6-c0ff2439c210.png)
 
