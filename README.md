@@ -67,7 +67,7 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 | `figureUrl`<sup>\*</sup> | String   | -            | `undefined` | -                        |
 | `figureX`                | String   | `'l'`, `'r'` | `'r'`       | -                        |
 
-![04](https://user-images.githubusercontent.com/35292572/156252099-12a05678-d315-4b86-9540-c5668c4d8335.png)
+![figure-side](https://user-images.githubusercontent.com/35292572/156252099-12a05678-d315-4b86-9540-c5668c4d8335.png)
 
 ## Components
 
@@ -84,9 +84,9 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 `Footnote` is to be used as children of a `Footnotes` parent.
 
-| **Parameter** | **Type** | **Notes**                                         |
-| ------------- | -------- | ------------------------------------------------- |
-| `number`      | Number   | Align with an attribution in the slides' content. |
+| **Parameter** | **Type** | **Notes**                                        |
+| ------------- | -------- | ------------------------------------------------ |
+| `number`      | Number   | Align with an attribution in the pages' content. |
 
 ![Footnotes & Footnote](https://user-images.githubusercontent.com/35292572/156066705-28c687f0-7d1c-4acb-bfdc-f267d397e7c2.png)
 
@@ -94,7 +94,7 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 `Pagination` is rendered globally by default. The global configuration can be defined using [`themeConfig`](#themeconfig).
 
-If certain slides need individual configuration of `Pagination`, exclude them from global rendering of `Pagination` using [`themeConfig`](#themeconfig) and add `Pagination` manually.
+If certain pages need individual configuration of `Pagination`, exclude them from global rendering of `Pagination` using [`themeConfig`](#themeconfig) and add `Pagination` manually.
 
 | **Parameter** | **Type**      | **Values**   | **Default** | **Notes**                                                                                    |
 | ------------- | ------------- | ------------ | ----------- | -------------------------------------------------------------------------------------------- |
@@ -106,13 +106,13 @@ If certain slides need individual configuration of `Pagination`, exclude them fr
 
 ## themeConfig
 
-Global parameters of the theme can be set using the `themeConfig` block in the frontmatter of the first slide.
+Global parameters of the theme can be set using the `themeConfig` block in the frontmatter of the first page.
 
 Be aware that defining the `themeConfig` block initializes all parameters as `undefined`; hence you may need to set parameters albeit using defaults.
 
 | **Parameter**             | **Type** | **Values**   | **Default** | **Notes**                                                                                                                                          |
 | ------------------------- | -------- | ------------ | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `paginationPagesDisabled` | Array    | -            | `undefined` | Disable global rendering of `Pagination` for slides having individual `Pagination`.                                                                |
+| `paginationPagesDisabled` | Array    | -            | `undefined` | Disable global rendering of `Pagination` for pages having individual `Pagination`.                                                                 |
 | `paginationX`             | String   | `'l'`, `'r'` | `'r'`       | To disable global default rending, set both `paginationX` and `paginationY` to `undefined`. `Pagination` can then still be used on selected pages. |
 | `paginationY`             | String   | `'b'`, `'t'` | `'t'`       | To disable global default rending, set both `paginationX` and `paginationY` to `undefined`. `Pagination` can then still be used on selected pages. |
 
