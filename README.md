@@ -33,7 +33,7 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 `table-of-contents` puts custom content above the table of contents. If none is given, the content defaults to `<h1>Table of Contents</h1>`.
 
-![table-of-contents](https://user-images.githubusercontent.com/35292572/156066655-86472854-d618-4802-ad5b-1712b22ad17b.png)
+![table-of-contents](https://user-images.githubusercontent.com/35292572/164085171-160786fb-ee1d-446e-ba82-f752f2bc8fd3.png)
 
 ### index
 
@@ -56,7 +56,7 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 | `figureFootnoteNumber`   | Number   | `undefined` | Align with a `Footnote`. |
 | `figureUrl`<sup>\*</sup> | String   | `undefined` | -                        |
 
-![figure](https://user-images.githubusercontent.com/35292572/156066665-85553da4-410c-4704-a3d5-a43f465e8fec.png)
+![figure](https://user-images.githubusercontent.com/35292572/164085256-5d67f5f5-c0ed-4399-a2a3-79e0035d401f.png)
 
 ### figure-side
 
@@ -67,7 +67,7 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 | `figureUrl`<sup>\*</sup> | String   | -            | `undefined` | -                        |
 | `figureX`                | String   | `'l'`, `'r'` | `'r'`       | -                        |
 
-![figure-side](https://user-images.githubusercontent.com/35292572/156252099-12a05678-d315-4b86-9540-c5668c4d8335.png)
+![figure-side](https://user-images.githubusercontent.com/35292572/164085296-36225fe2-ec8f-4f2a-acf1-0fc0d5e9b4e5.png)
 
 ## Components
 
@@ -88,7 +88,7 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 | ------------- | -------- | ------------------------------------------------ |
 | `number`      | Number   | Align with an attribution in the pages' content. |
 
-![Footnotes & Footnote](https://user-images.githubusercontent.com/35292572/156066705-28c687f0-7d1c-4acb-bfdc-f267d397e7c2.png)
+![Footnotes & Footnote](https://user-images.githubusercontent.com/35292572/164085374-f8c804fd-d66d-494b-bf41-f22d00907a64.png)
 
 ### Pagination
 
@@ -102,7 +102,7 @@ If certain pages need individual configuration of `Pagination`, exclude them fro
 | `paginationX` | String        | `'l'`, `'r'` | `'r'`       | -                                                                                            |
 | `paginationY` | String        | `'b'`, `'t'` | `'t'`       | -                                                                                            |
 
-![Pagination](https://user-images.githubusercontent.com/35292572/156066719-86209c2c-c3d3-41d7-ad5a-ced806f7ac46.png)
+![Pagination](https://user-images.githubusercontent.com/35292572/164085448-351e0466-6ea1-46cb-8b9d-b3762aa7818e.png)
 
 ## themeConfig
 
