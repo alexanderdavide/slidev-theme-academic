@@ -45,7 +45,7 @@ indexEntries:
 
 # index
 
-`index` used as list of figures:
+`index` used as list of figures
 
 ---
 layout: figure
