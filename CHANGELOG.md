@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.5.0](https://github.com/alexanderdavide/slidev-theme-academic/compare/0.4.0...0.5.0) (2022-04-19)
+
+
+### Features
+
+* add index ([0ad399d](https://github.com/alexanderdavide/slidev-theme-academic/commit/0ad399dd22320700753428e43cc7ab8b26efd90e))
+* enable index to be used for references ([aa3c97c](https://github.com/alexanderdavide/slidev-theme-academic/commit/aa3c97c8fe66844178c7afd5705ffaade919bf6a))
+
+## [0.4.0](https://github.com/alexanderdavide/slidev-theme-academic/compare/0.3.0...0.4.0) (2022-04-13)
+
+
+### Features
+
+* show table of content with decimal list by updating slidev ([044c658](https://github.com/alexanderdavide/slidev-theme-academic/commit/044c65867da6a4a72153689d9e0f137323dd69f8))
+
+
+### Bug Fixes
+
+* account for optionality of paginationPagesDisabled ([aa27511](https://github.com/alexanderdavide/slidev-theme-academic/commit/aa275115c893bc3f6b30411b6a199ee9f08d5649))
+
 ## [0.3.0](https://github.com/alexanderdavide/slidev-theme-academic/compare/0.2.1...0.3.0) (2022-04-10)
 
 

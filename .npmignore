@@ -1,0 +1,10 @@
+.editorconfig
+.devcontainer/
+.github/
+.gitmodules
+.husky/
+.nvmrc
+.prettierignore
+.release-it.json
+.sgcrc
+commitlint.config.js
