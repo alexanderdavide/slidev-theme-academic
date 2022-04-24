@@ -3,7 +3,7 @@
     <div class="my-auto w-full">
       <slot />
     </div>
-    <div class="absolute bottom-12 font-bold" v-if="author || date">
+    <div class="absolute bottom-12" v-if="author || date">
       <TextWithOptionalLink :link="authorUrl" :text="author" />
       <span v-if="date">{{ author && date ? `, ${date}` : date }}</span>
     </div>
