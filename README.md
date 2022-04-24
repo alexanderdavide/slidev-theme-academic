@@ -27,13 +27,13 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 | `coverBackgroundSourceUrl` | String   | `undefined`                       | -                                                                                 |
 | `coverDate`                | String   | `new Date().toLocaleDateString()` | -                                                                                 |
 
-![cover](https://user-images.githubusercontent.com/35292572/156066647-8c38b9f9-745f-4b24-9210-275da430115d.png)
+![cover](../assets/example-export/01.png)
 
 ### table-of-contents
 
 `table-of-contents` puts custom content above the table of contents. If none is given, the content defaults to `<h1>Table of Contents</h1>`.
 
-![table-of-contents](https://user-images.githubusercontent.com/35292572/164085171-160786fb-ee1d-446e-ba82-f752f2bc8fd3.png)
+![table-of-contents](../assets/example-export/02.png)
 
 ### index
 
@@ -46,7 +46,7 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 | `indexEntries`<sup>\*</sup> | `{ title: string, uri?: number \| string }[]` | `undefined` | Specify `uri` as a page number or optional URL in accordance with `indexRedirectType`. |
 | `indexRedirectType`         | `external \| internal`                        | `internal`  | -                                                                                      |
 
-![index](https://user-images.githubusercontent.com/35292572/163581672-d76ea111-f35c-4c24-a6a5-bc4fd71cccc8.png)
+![index](../assets/example-export/08.png)
 
 ### figure
 
@@ -56,7 +56,7 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 | `figureFootnoteNumber`   | Number   | `undefined` | Align with a `Footnote`. |
 | `figureUrl`<sup>\*</sup> | String   | `undefined` | -                        |
 
-![figure](https://user-images.githubusercontent.com/35292572/164085256-5d67f5f5-c0ed-4399-a2a3-79e0035d401f.png)
+![figure](../assets/example-export/04.png)
 
 ### figure-side
 
@@ -67,7 +67,7 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 | `figureUrl`<sup>\*</sup> | String   | -            | `undefined` | -                        |
 | `figureX`                | String   | `'l'`, `'r'` | `'r'`       | -                        |
 
-![figure-side](https://user-images.githubusercontent.com/35292572/164085296-36225fe2-ec8f-4f2a-acf1-0fc0d5e9b4e5.png)
+![figure-side](../assets/example-export/05.png)
 
 ## Components
 
@@ -88,7 +88,7 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 | ------------- | -------- | ------------------------------------------------ |
 | `number`      | Number   | Align with an attribution in the pages' content. |
 
-![Footnotes & Footnote](https://user-images.githubusercontent.com/35292572/164085374-f8c804fd-d66d-494b-bf41-f22d00907a64.png)
+![Footnotes & Footnote](../assets/example-export/06.png)
 
 ### Pagination
 
@@ -102,7 +102,7 @@ If certain pages need individual configuration of `Pagination`, exclude them fro
 | `x`           | String        | `'l'`, `'r'` | `'r'`       | -                                                                                            |
 | `y`           | String        | `'b'`, `'t'` | `'t'`       | -                                                                                            |
 
-![Pagination](https://user-images.githubusercontent.com/35292572/164085448-351e0466-6ea1-46cb-8b9d-b3762aa7818e.png)
+![Pagination](../assets/example-export/07.png)
 
 ## themeConfig
 
