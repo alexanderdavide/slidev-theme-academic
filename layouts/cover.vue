@@ -7,7 +7,7 @@
       <TextWithOptionalLink :link="authorUrl" :text="author" />
       <span v-if="date">{{ author && date ? `, ${date}` : date }}</span>
     </div>
-    <div class="fixed bottom-0 mb-1 mr-2 right-0 text-xs" v-if="backgroundSource">
+    <div class="bottom-0 fixed font-extralight mb-1 mr-2 right-0 text-xs" v-if="backgroundSource">
       <TextWithOptionalLink :link="backgroundSourceUrl" :text="backgroundSource" />
     </div>
   </div>
