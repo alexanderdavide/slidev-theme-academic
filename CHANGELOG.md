@@ -1,5 +1,28 @@
 # Changelog
 
+## [1.0.0](https://github.com/alexanderdavide/slidev-theme-academic/compare/0.5.0...1.0.0) (2022-04-24)
+
+
+### ⚠ BREAKING CHANGES
+
+* put variables in context of the cover layout
+* put variables in context of the layout
+* make variables more concise
+* improve variable semantics
+
+### Features
+
+* default to fonts which support all font weigths on google fonts ([4d27e7a](https://github.com/alexanderdavide/slidev-theme-academic/commit/4d27e7a0eadd4a5e5308c62a045e27c752d5c545))
+* use normal font weigth for auther and date ([8ffc3c3](https://github.com/alexanderdavide/slidev-theme-academic/commit/8ffc3c3a344e43ae776d942aede259105f26dfd5))
+
+
+### Code Refactoring
+
+* improve variable semantics ([31ef068](https://github.com/alexanderdavide/slidev-theme-academic/commit/31ef068ab7bcd40bbc76a898d8b2a27f6c4473e2))
+* make variables more concise ([428658e](https://github.com/alexanderdavide/slidev-theme-academic/commit/428658e89772706f6ae46eb47e2158921e0de299))
+* put variables in context of the cover layout ([996152c](https://github.com/alexanderdavide/slidev-theme-academic/commit/996152c8be7640c21f64dcd807b56cec12fe1211))
+* put variables in context of the layout ([3f793c4](https://github.com/alexanderdavide/slidev-theme-academic/commit/3f793c4e18f07dd0cc4bc74c87bc1bc0db1c1186))
+
 ## [0.5.0](https://github.com/alexanderdavide/slidev-theme-academic/compare/0.4.0...0.5.0) (2022-04-19)
 
 
