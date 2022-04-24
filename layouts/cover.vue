@@ -3,11 +3,11 @@
     <div class="my-auto w-full">
       <slot />
     </div>
-    <div class="absolute bottom-12 font-bold" v-if="coverAuthor || coverDate">
+    <div class="absolute bottom-12" v-if="coverAuthor || coverDate">
       <TextWithOptionalLink :link="coverAuthorUrl" :text="coverAuthor" />
       <span v-if="coverDate">{{ coverAuthor && coverDate ? `, ${coverDate}` : coverDate }}</span>
     </div>
-    <div class="fixed bottom-0 mb-1 mr-2 right-0 text-xs" v-if="coverBackgroundSource">
+    <div class="bottom-0 fixed font-extralight mb-1 mr-2 right-0 text-xs" v-if="coverBackgroundSource">
       <TextWithOptionalLink :link="coverBackgroundSourceUrl" :text="coverBackgroundSource" />
     </div>
   </div>
