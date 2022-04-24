@@ -58,8 +58,9 @@
     "highlighter": "all",
     "defaults": {
       "fonts": {
-        "sans": "Nunito Sans",
-        "mono": "Fira Code"
+        "sans": "Montserrat",
+        "serif": "Roboto Slab",
+        "mono": "Roboto Mono"
       },
       "hightlighter": "prism",
       "themeConfig": {
