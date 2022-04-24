@@ -20,12 +20,12 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 | **Parameter**              | **Type** | **Default**                       | **Notes**                                                                         |
 | -------------------------- | -------- | --------------------------------- | --------------------------------------------------------------------------------- |
-| `author`                   | String   | `undefined`                       | -                                                                                 |
-| `authorUrl`                | String   | `undefined`                       | -                                                                                 |
+| `coverAuthor`              | String   | `undefined`                       | -                                                                                 |
+| `coverAuthorUrl`           | String   | `undefined`                       | -                                                                                 |
 | `coverBackgroundUrl`       | String   | `undefined`                       | Adapt the text color with the built-in `class` attribute in the same frontmatter. |
 | `coverBackgroundSource`    | String   | `undefined`                       | -                                                                                 |
 | `coverBackgroundSourceUrl` | String   | `undefined`                       | -                                                                                 |
-| `date`                     | String   | `new Date().toLocaleDateString()` | -                                                                                 |
+| `coverDate`                | String   | `new Date().toLocaleDateString()` | -                                                                                 |
 
 ![cover](https://user-images.githubusercontent.com/35292572/156066647-8c38b9f9-745f-4b24-9210-275da430115d.png)
 

@@ -3,9 +3,9 @@
     <div class="my-auto w-full">
       <slot />
     </div>
-    <div class="absolute bottom-12 font-bold" v-if="author || date">
-      <TextWithOptionalLink :link="authorUrl" :text="author" />
-      <span v-if="date">{{ author && date ? `, ${date}` : date }}</span>
+    <div class="absolute bottom-12 font-bold" v-if="coverAuthor || coverDate">
+      <TextWithOptionalLink :link="coverAuthorUrl" :text="coverAuthor" />
+      <span v-if="coverDate">{{ coverAuthor && coverDate ? `, ${coverDate}` : coverDate }}</span>
     </div>
     <div class="fixed bottom-0 mb-1 mr-2 right-0 text-xs" v-if="coverBackgroundSource">
       <TextWithOptionalLink :link="coverBackgroundSourceUrl" :text="coverBackgroundSource" />
@@ -19,14 +19,14 @@ import { handleBackground } from '../layout-helper';
 
 const { coverBackgroundUrl } = withDefaults(
   defineProps<{
-    author?: string;
-    authorUrl?: string;
+    coverAuthor?: string;
+    coverAuthorUrl?: string;
     coverBackgroundUrl?: string;
     coverBackgroundSource?: string;
     coverBackgroundSourceUrl?: string;
-    date?: string | Date;
+    coverDate?: string | Date;
   }>(),
-  { date: new Date().toLocaleDateString() },
+  { coverDate: new Date().toLocaleDateString() },
 );
 
 const style = computed(() => handleBackground(coverBackgroundUrl, true));
