@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed bottom-0 left-0 w-full">
+  <div class="fixed bottom-0 left-0 w-full bg-main">
     <hr v-if="separator" />
     <ul
       class="flex flex-wrap !list-none p-2"
