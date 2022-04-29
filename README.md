@@ -75,10 +75,11 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 `Footnotes` is to be used as parent of `Footnote` children.
 
-| **Parameter** | **Type** | **Values**      | **Default** |
-| ------------- | -------- | --------------- | ----------- |
-| `x`           | String   | `'l'`, `'r'`    | `'r'`       |
-| `separator`   | Boolean  | `true`, `false` | `false`     |
+| **Parameter** | **Type** | **Values**      | **Default** | **Notes**                                                       |
+| ------------- | -------- | --------------- | ----------- | --------------------------------------------------------------- |
+| `filled`      | Boolean  | `true`, `false` | `false`     | Overlay subordinate content that may puts itself in background. |
+| `separator`   | Boolean  | `true`, `false` | `false`     | -                                                               |
+| `x`           | String   | `'l'`, `'r'`    | `'r'`       | -                                                               |
 
 ### Footnote
 
