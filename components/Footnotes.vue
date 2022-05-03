@@ -1,5 +1,10 @@
 <template>
-  <div class="fixed bottom-0 left-0 w-full">
+  <div
+    class="fixed bottom-0 left-0 w-full"
+    v-bind:class="{
+      'bg-main': filled,
+    }"
+  >
     <hr v-if="separator" />
     <ul
       class="flex flex-wrap !list-none p-2"
@@ -17,14 +22,18 @@
 import { PropType } from 'vue';
 
 defineProps({
-  x: {
-    default: 'r',
-    type: String as PropType<'l' | 'r'>,
-    validator: (value) => value === 'l' || value === 'r',
+  filled: {
+    default: false,
+    type: Boolean,
   },
   separator: {
     default: false,
     type: Boolean,
+  },
+  x: {
+    default: 'r',
+    type: String as PropType<'l' | 'r'>,
+    validator: (value) => value === 'l' || value === 'r',
   },
 });
 </script>
