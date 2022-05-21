@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/alexanderdavide/slidev-theme-academic/compare/1.0.0...1.1.0) (2022-05-21)
+
+
+### Features
+
+* enable filling of footnotes ([be3a4c7](https://github.com/alexanderdavide/slidev-theme-academic/commit/be3a4c7f81b37fb71674224f4b85b18c116c5a93))
+
+
+### Bug Fixes
+
+* add background color to Footnotes component ([d7ad960](https://github.com/alexanderdavide/slidev-theme-academic/commit/d7ad960770d8c0779dd1ca2edfba65c81eb8c312))
+
 ## [1.0.0](https://github.com/alexanderdavide/slidev-theme-academic/compare/0.5.0...1.0.0) (2022-04-24)
 
 
