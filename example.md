@@ -17,12 +17,21 @@ title: slidev-theme-academic
 info: |
   # slidev-theme-academic
 
-  Created and maintained by [Alexander Eble](https://www.alex-eble.de)
+  Created and maintained by [Alexander Eble](https://www.alex-eble.de).
 
   - [GitHub](https://github.com/alexanderdavide/slidev-theme-academic)
   - [npm](https://www.npmjs.com/package/slidev-theme-academic)
 
   slidev-theme-academic is licensed under [MIT](https://github.com/alexanderdavide/slidev-theme-academic/blob/master/LICENSE).
+
+  <ul>
+    <li>
+      <a href="https://www.alex-eble.de/impressum/" target="_blank">Legal information of this website</a>
+    </li>
+    <li>
+      <a href="https://www.alex-eble.de/datenschutz/" target="_blank">Privacy policy of this website</a>
+    </li>
+  </ul>
 ---
 
 # cover
