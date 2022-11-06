@@ -21,8 +21,8 @@
     "slidev-theme-academic"
   ],
   "scripts": {
-    "build": "slidev build example.md",
-    "dev": "slidev example.md --open",
+    "build": "node prebuild.js && slidev build example.md",
+    "dev": "node prebuild.js && slidev example.md --open",
     "export": "slidev export example.md",
     "prepare": "husky install",
     "release": "release-it",

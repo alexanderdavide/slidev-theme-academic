@@ -1,0 +1,36 @@
+/* montserrat-200 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../assets/fonts/montserrat-v25-latin-200.eot'); /* IE9 Compat Modes */
+  src: local(''), url('../assets/fonts/montserrat-v25-latin-200.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('../assets/fonts/montserrat-v25-latin-200.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../assets/fonts/montserrat-v25-latin-200.woff') format('woff'),
+    /* Modern Browsers */ url('../assets/fonts/montserrat-v25-latin-200.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('../assets/fonts/montserrat-v25-latin-200.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/fonts/montserrat-v25-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''), url('../assets/fonts/montserrat-v25-latin-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('../assets/fonts/montserrat-v25-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../assets/fonts/montserrat-v25-latin-regular.woff') format('woff'),
+    /* Modern Browsers */ url('../assets/fonts/montserrat-v25-latin-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('../assets/fonts/montserrat-v25-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+/* roboto-mono-300 - latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../assets/fonts/roboto-mono-v22-latin-300.eot'); /* IE9 Compat Modes */
+  src: local(''), url('../assets/fonts/roboto-mono-v22-latin-300.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('../assets/fonts/roboto-mono-v22-latin-300.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../assets/fonts/roboto-mono-v22-latin-300.woff') format('woff'),
+    /* Modern Browsers */ url('../assets/fonts/roboto-mono-v22-latin-300.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('../assets/fonts/roboto-mono-v22-latin-300.svg#RobotoMono') format('svg'); /* Legacy iOS */
+}
