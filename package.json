@@ -4,10 +4,10 @@
   "version": "1.1.0",
   "author": {
     "name": "Alexander Eble",
-    "email": "mail@alex-eble.de",
-    "url": "https://www.alex-eble.de"
+    "email": "mail@alexeble.de",
+    "url": "https://www.alexeble.de"
   },
-  "homepage": "https://slidev-theme-academic.alex-eble.de",
+  "homepage": "https://slidev-theme-academic.alexeble.de",
   "repository": {
     "type": "git",
     "url": "https://github.com/alexanderdavide/slidev-theme-academic"

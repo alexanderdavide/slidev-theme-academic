@@ -3,12 +3,12 @@ theme: ./
 layout: cover
 class: text-white
 coverAuthor: alexanderdavide
-coverAuthorUrl: https://www.alex-eble.de
+coverAuthorUrl: https://www.alexeble.de
 coverBackgroundUrl: /presentation.jpg
 coverBackgroundSource: unsplash
 coverBackgroundSourceUrl: https://images.unsplash.com/photo-1594122230689-45899d9e6f69?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
 fonts:
-  local: Montserrat, Roboto Mono, Roboto Slab # local fonts are used for legal reasons for deployment to https://slidev-theme-academic.alex-eble.de and only set up for the example project, remove this line for your project to automatically have fonts imported from Google
+  local: Montserrat, Roboto Mono, Roboto Slab # local fonts are used for legal reasons for deployment to https://slidev-theme-academic.alexeble.de and only set up for the example project, remove this line for your project to automatically have fonts imported from Google
 themeConfig:
   paginationX: r
   paginationY: t
@@ -17,7 +17,7 @@ title: slidev-theme-academic
 info: |
   # slidev-theme-academic
 
-  Created and maintained by [Alexander Eble](https://www.alex-eble.de).
+  Created and maintained by [Alexander Eble](https://www.alexeble.de).
 
   - [GitHub](https://github.com/alexanderdavide/slidev-theme-academic)
   - [npm](https://www.npmjs.com/package/slidev-theme-academic)
@@ -26,10 +26,10 @@ info: |
 
   <ul>
     <li>
-      <a href="https://www.alex-eble.de/impressum/" target="_blank">Legal information of this website</a>
+      <a href="https://www.alexeble.de/impressum/" target="_blank">Legal information of this website</a>
     </li>
     <li>
-      <a href="https://www.alex-eble.de/datenschutz/" target="_blank">Privacy policy of this website</a>
+      <a href="https://www.alexeble.de/datenschutz/" target="_blank">Privacy policy of this website</a>
     </li>
   </ul>
 ---
