@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed p-2 text-xs" :class="classNames"><SlideCurrentNo /> / <SlidesTotal /></div>
+  <div class="absolute p-2 text-xs" :class="classNames"><SlideCurrentNo /> / <SlidesTotal /></div>
 </template>
 
 <script setup lang="ts">
