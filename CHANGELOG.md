@@ -1,5 +1,14 @@
 # Changelog
 
+### [1.1.1](https://github.com/alexanderdavide/slidev-theme-academic/compare/1.1.0...1.1.1) (2022-12-21)
+
+
+### Bug Fixes
+
+* **#7:** prevent overlap of global layers in export ([5aadf73](https://github.com/alexanderdavide/slidev-theme-academic/commit/5aadf7358099dfd0cc56b72afc836f008ab55181)), closes [#7](https://github.com/alexanderdavide/slidev-theme-academic/issues/7)
+* consider base path specified by user ([b57a01d](https://github.com/alexanderdavide/slidev-theme-academic/commit/b57a01dfc7363d99eeb41c556e97392b0c08b520))
+* prevent pagination from being displayed on slide end ([9a34e17](https://github.com/alexanderdavide/slidev-theme-academic/commit/9a34e1755fcc0cdc615d9650e3f7dd31abb0e52d))
+
 ## [1.1.0](https://github.com/alexanderdavide/slidev-theme-academic/compare/1.0.0...1.1.0) (2022-05-21)
 
 
