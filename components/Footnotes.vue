@@ -1,6 +1,6 @@
 <template>
   <div
-    class="fixed bottom-0 left-0 w-full"
+    class="absolute bottom-0 left-0 w-full"
     v-bind:class="{
       'bg-main': filled,
     }"
