@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.2](https://github.com/alexanderdavide/slidev-theme-academic/compare/1.1.1...1.1.2) (2023-03-12)
+
+
+### Bug Fixes
+
+* ensure alignment of author, date and content ([f03443e](https://github.com/alexanderdavide/slidev-theme-academic/commit/f03443e78e38fcc316b1f2975e6d24bf0c563dcd)), closes [#10](https://github.com/alexanderdavide/slidev-theme-academic/issues/10)
+
 ### [1.1.1](https://github.com/alexanderdavide/slidev-theme-academic/compare/1.1.0...1.1.1) (2022-12-21)
 
 
