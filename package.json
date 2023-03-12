@@ -43,7 +43,7 @@
     "@commitlint/config-conventional": "^16.2.1",
     "@iconify-json/mdi": "^1.1.0",
     "@release-it/conventional-changelog": "^4.2.0",
-    "@slidev/cli": "^0.38.0",
+    "@slidev/cli": "^0.40.3",
     "husky": "^7.0.4",
     "playwright-chromium": "^1.19.2",
     "prettier": "^2.6.2",
