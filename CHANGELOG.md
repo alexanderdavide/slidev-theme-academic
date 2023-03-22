@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.3](https://github.com/alexanderdavide/slidev-theme-academic/compare/1.1.2...1.1.3) (2023-03-22)
+
+
+### Bug Fixes
+
+* use correct comment syntax ([ee3cb92](https://github.com/alexanderdavide/slidev-theme-academic/commit/ee3cb920cbf7d04b83766d0cb251351fe2efde8b))
+
 ### [1.1.2](https://github.com/alexanderdavide/slidev-theme-academic/compare/1.1.1...1.1.2) (2023-03-12)
 
 
