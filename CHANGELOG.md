@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.4](https://github.com/alexanderdavide/slidev-theme-academic/compare/1.1.3...1.1.4) (2024-01-13)
+
+
+### Bug Fixes
+
+* make resolveAssetUrl safe for base URL with or without trailing slash ([a5c4f21](https://github.com/alexanderdavide/slidev-theme-academic/commit/a5c4f21617b88305c219d277bdd01ad2796164c1))
+
 ### [1.1.3](https://github.com/alexanderdavide/slidev-theme-academic/compare/1.1.2...1.1.3) (2023-03-22)
 
 
