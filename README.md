@@ -18,14 +18,14 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 ### cover
 
-| **Parameter**              | **Type** | **Default**                       | **Notes**                                                                         |
-| -------------------------- | -------- | --------------------------------- | --------------------------------------------------------------------------------- |
-| `coverAuthor`              | String   | `undefined`                       | -                                                                                 |
-| `coverAuthorUrl`           | String   | `undefined`                       | -                                                                                 |
-| `coverBackgroundUrl`       | String   | `undefined`                       | Adapt the text color with the built-in `class` attribute in the same frontmatter. |
-| `coverBackgroundSource`    | String   | `undefined`                       | -                                                                                 |
-| `coverBackgroundSourceUrl` | String   | `undefined`                       | -                                                                                 |
-| `coverDate`                | String   | `new Date().toLocaleDateString()` | -                                                                                 |
+| **Parameter**              | **Type**      | **Default**                       | **Notes**                                                                         |
+| -------------------------- | ------------- | --------------------------------- | --------------------------------------------------------------------------------- |
+| `coverAuthor`              | Array, String | `undefined`                       | -                                                                                 |
+| `coverAuthorUrl`           | Array, String | `undefined`                       | -                                                                                 |
+| `coverBackgroundUrl`       | String        | `undefined`                       | Adapt the text color with the built-in `class` attribute in the same frontmatter. |
+| `coverBackgroundSource`    | String        | `undefined`                       | -                                                                                 |
+| `coverBackgroundSourceUrl` | String        | `undefined`                       | -                                                                                 |
+| `coverDate`                | String        | `new Date().toLocaleDateString()` | -                                                                                 |
 
 ![cover](../assets/example-export/01.png)
 
