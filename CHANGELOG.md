@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/alexanderdavide/slidev-theme-academic/compare/1.1.4...1.2.0) (2024-01-27)
+
+
+### Features
+
+* enable listing multiple authors on cover ([d21d0c9](https://github.com/alexanderdavide/slidev-theme-academic/commit/d21d0c97d17fb7d57ed18eedd1dedc7546dc23aa))
+* use and between last two authors rather than comma ([bbcfeb2](https://github.com/alexanderdavide/slidev-theme-academic/commit/bbcfeb20a51902da7d438d2378bdf330af98299b))
+
 ### [1.1.4](https://github.com/alexanderdavide/slidev-theme-academic/compare/1.1.3...1.1.4) (2024-01-13)
 
 
