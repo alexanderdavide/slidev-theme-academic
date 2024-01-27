@@ -6,7 +6,8 @@
         <p v-if="coverAuthors.length">
           <template v-for="(coverAuthor, idx) in coverAuthors">
             <TextWithOptionalLink :link="coverAuthorUrls[idx]" :text="coverAuthor" />
-            <span v-if="idx < coverAuthors.length - 1">, </span>
+            <span v-if="idx < coverAuthors.length - 2">, </span>
+            <span v-if="idx === coverAuthors.length - 2"> and </span>
           </template>
         </p>
         <p v-if="coverDate">{{ coverAuthors.length ? `, ${coverDate}` : coverDate }}</p>
