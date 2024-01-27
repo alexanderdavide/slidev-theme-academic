@@ -2,8 +2,8 @@
 theme: ./
 layout: cover
 class: text-white
-coverAuthor: alexanderdavide
-coverAuthorUrl: https://www.alexeble.de
+coverAuthor: [alexanderdavide, contributors]
+coverAuthorUrl: [https://www.alexeble.de, https://github.com/alexanderdavide/slidev-theme-academic/graphs/contributors]
 coverBackgroundUrl: /presentation.jpg
 coverBackgroundSource: unsplash
 coverBackgroundSourceUrl: https://images.unsplash.com/photo-1594122230689-45899d9e6f69?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
