@@ -61,15 +61,5 @@ pre[class*='language-'] {
 :not(pre) > code {
   font-size: 0.9em;
   background: var(--prism-background);
-  @apply font-light py-0.5 rounded;
-}
-
-:not(pre) > code:before,
-:not(pre) > code:after {
-  content: '`';
-  opacity: 0.5;
-}
-
-:not(pre) > code:before {
-  margin-right: -0.08em;
+  @apply font-light px-2 py-0.7 rounded;
 }
