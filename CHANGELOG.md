@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/alexanderdavide/slidev-theme-academic/compare/1.2.0...1.3.0) (2024-03-23)
+
+
+### Features
+
+* remove backticks from code ([77e7c31](https://github.com/alexanderdavide/slidev-theme-academic/commit/77e7c3145377c82c50abe0b6f35d69f3b9fb90b9))
+
 ## [1.2.0](https://github.com/alexanderdavide/slidev-theme-academic/compare/1.1.4...1.2.0) (2024-01-27)
 
 
