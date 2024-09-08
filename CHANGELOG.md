@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/alexanderdavide/slidev-theme-academic/compare/1.3.1...2.0.0) (2024-09-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* migrate to UnoCSS and Shiki highlighter
+
+### Features
+
+* migrate to UnoCSS and Shiki highlighter ([3c52243](https://github.com/alexanderdavide/slidev-theme-academic/commit/3c522433ac9858167548360884182fc6e443dedd))
+
 ### [1.3.1](https://github.com/alexanderdavide/slidev-theme-academic/compare/1.3.0...1.3.1) (2024-09-08)
 
 

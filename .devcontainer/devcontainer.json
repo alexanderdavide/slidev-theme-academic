@@ -3,7 +3,7 @@
   "build": {
     "dockerfile": "./vscode-dev-containers/containers/typescript-node/.devcontainer/Dockerfile",
     "args": {
-      "VARIANT": "16-bullseye"
+      "VARIANT": "20-bullseye"
     }
   },
   "customizations": {
@@ -22,7 +22,6 @@
         "shan.code-settings-sync",
         "sleistner.vscode-fileutils",
         "pustelto.bracketeer",
-        "voorjaar.windicss-intellisense",
         "vscode-icons-team.vscode-icons",
         "vue.volar",
         "wakatime.vscode-wakatime",
