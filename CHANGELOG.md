@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.3.1](https://github.com/alexanderdavide/slidev-theme-academic/compare/1.3.0...1.3.1) (2024-09-08)
+
+
+### Bug Fixes
+
+* load Shiki theme directly ([3e6b27a](https://github.com/alexanderdavide/slidev-theme-academic/commit/3e6b27ae354354b468e007bdb72b504604fc93e8))
+
 ## [1.3.0](https://github.com/alexanderdavide/slidev-theme-academic/compare/1.2.0...1.3.0) (2024-03-23)
 
 
