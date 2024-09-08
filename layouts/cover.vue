@@ -27,17 +27,15 @@ const {
   coverAuthor: coverAuthorTransferred,
   coverAuthorUrl: coverAuthorUrlTransferred,
   coverBackgroundUrl,
-} = withDefaults(
-  defineProps<{
-    coverAuthor?: string | string[];
-    coverAuthorUrl?: string | string[];
-    coverBackgroundUrl?: string;
-    coverBackgroundSource?: string;
-    coverBackgroundSourceUrl?: string;
-    coverDate?: string | Date;
-  }>(),
-  { coverDate: new Date().toLocaleDateString() },
-);
+  coverDate = new Date().toLocaleDateString(),
+} = defineProps<{
+  coverAuthor?: string | string[];
+  coverAuthorUrl?: string | string[];
+  coverBackgroundUrl?: string;
+  coverBackgroundSource?: string;
+  coverBackgroundSourceUrl?: string;
+  coverDate?: string | Date;
+}>();
 
 const coverAuthors = computed(() => transformIntoArray(coverAuthorTransferred));
 const coverAuthorUrls = computed(() => transformIntoArray(coverAuthorUrlTransferred));
