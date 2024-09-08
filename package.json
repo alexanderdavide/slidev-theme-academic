@@ -34,7 +34,6 @@
   "dependencies": {
     "@slidev/types": "^0.29.2",
     "codemirror-theme-vars": "^0.1.1",
-    "prism-theme-vars": "^0.2.2",
     "theme-vitesse": "^0.1.14"
   },
   "devDependencies": {
@@ -55,14 +54,13 @@
   },
   "slidev": {
     "colorSchema": "both",
-    "highlighter": "all",
+    "highlighter": "shiki",
     "defaults": {
       "fonts": {
         "sans": "Montserrat",
         "serif": "Roboto Slab",
         "mono": "Roboto Mono"
       },
-      "hightlighter": "prism",
       "themeConfig": {
         "paginationX": "r",
         "paginationY": "t"
