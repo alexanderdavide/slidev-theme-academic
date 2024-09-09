@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.0.1](https://github.com/alexanderdavide/slidev-theme-academic/compare/2.0.0...2.0.1) (2024-09-09)
+
+
+### Bug Fixes
+
+* specify package engines correctly ([f5061d7](https://github.com/alexanderdavide/slidev-theme-academic/commit/f5061d7e3dc7fe4fd39b3f2c6bcc394c7e912ff9))
+
 ## [2.0.0](https://github.com/alexanderdavide/slidev-theme-academic/compare/1.3.1...2.0.0) (2024-09-08)
 
 
