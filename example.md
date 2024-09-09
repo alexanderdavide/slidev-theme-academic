@@ -62,20 +62,20 @@ indexEntries:
 layout: figure
 figureCaption: Curated cover image for Slidev
 figureFootnoteNumber: 1
-figureUrl: https://source.unsplash.com/collection/94734566/1920x1080
+figureUrl: https://picsum.photos/1920/1080
 ---
 
 # figure
 
 <Footnotes separator>
-  <Footnote :number=1><a href="https://unsplash.com/collections/94734566/slidev" rel="noreferrer" target="_blank">Anthony Fu</a></Footnote>
+  <Footnote :number=1><a href="https://picsum.photos/" rel="noreferrer" target="_blank">Picsum</a></Footnote>
 </Footnotes>
 
 ---
 layout: figure-side
 figureCaption: Curated cover image for Slidev
 figureFootnoteNumber: 1
-figureUrl: https://source.unsplash.com/collection/94734566/1024x768
+figureUrl: https://picsum.photos/1024/768
 ---
 
 # figure-side
@@ -85,7 +85,7 @@ figureUrl: https://source.unsplash.com/collection/94734566/1024x768
 - Features an optional figure caption
 
 <Footnotes separator>
-  <Footnote :number=1><a href="https://unsplash.com/collections/94734566/slidev" rel="noreferrer" target="_blank">Anthony Fu</a></Footnote>
+  <Footnote :number=1><a href="https://picsum.photos/" rel="noreferrer" target="_blank">Picsum</a></Footnote>
 </Footnotes>
 
 ---
