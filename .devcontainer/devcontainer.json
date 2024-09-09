@@ -19,19 +19,13 @@
         "ms-azuretools.vscode-docker",
         "ms-vscode-remote.remote-containers",
         "ms-vsliveshare.vsliveshare",
-        "shan.code-settings-sync",
         "sleistner.vscode-fileutils",
         "pustelto.bracketeer",
         "vscode-icons-team.vscode-icons",
         "vue.volar",
         "wakatime.vscode-wakatime",
         "wix.vscode-import-cost"
-      ],
-      "settings": {
-        "sync.syncExtensions": false,
-        "sync.autoDownload": true,
-        "sync.autoUpload": false
-      }
+      ]
     }
   },
   "forwardPorts": [3030],
