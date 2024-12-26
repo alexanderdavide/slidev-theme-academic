@@ -3,6 +3,7 @@
     class="absolute bottom-0 left-0 w-full"
     v-bind:class="{
       'bg-main': filled,
+      'z-1': filled,
     }"
   >
     <hr v-if="separator" />
