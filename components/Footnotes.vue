@@ -10,8 +10,12 @@
     <ul
       class="flex flex-wrap !list-none p-2"
       v-bind:class="{
-        'justify-start': x === 'l',
-        'justify-end': x === 'r',
+        'flex-col': y === 'col',
+        'items-start': x === 'l' && y === 'col',
+        'items-end': x === 'r' && y === 'col',
+        'justify-start': x === 'l' && y === 'row',
+        'justify-end': x === 'r' && y === 'row',
+        'gap-row-0.5': y === 'col',
       }"
     >
       <slot />
@@ -36,5 +40,10 @@ defineProps({
     type: String as PropType<'l' | 'r'>,
     validator: (value) => value === 'l' || value === 'r',
   },
+  y: {
+    default: 'row',
+    type: String as PropType<'col' | 'row'>,
+    validator: (value) => value === 'col' || value === 'row',
+  }
 });
 </script>
