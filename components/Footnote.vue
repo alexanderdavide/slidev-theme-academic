@@ -1,5 +1,5 @@
 <template>
-  <li class="text-xs whitespace-nowrap">
+  <li class="ml-0! text-xs whitespace-nowrap">
     <sup v-if="number">{{ number }}</sup>
     <slot />
   </li>

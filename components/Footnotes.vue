@@ -8,13 +8,14 @@
   >
     <hr v-if="separator" />
     <ul
-      class="flex flex-wrap !list-none p-2"
+      class="flex flex-wrap !list-none px-3 py-2"
       v-bind:class="{
         'flex-col': y === 'col',
         'items-start': x === 'l' && y === 'col',
         'items-end': x === 'r' && y === 'col',
         'justify-start': x === 'l' && y === 'row',
         'justify-end': x === 'r' && y === 'row',
+        'gap-col-3': y === 'row',
         'gap-row-0.5': y === 'col',
       }"
     >
