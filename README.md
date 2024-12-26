@@ -80,7 +80,7 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 | `filled`      | Boolean  | `true`, `false`  | `false`     | Overlay subordinate content that may puts itself in background. |
 | `separator`   | Boolean  | `true`, `false`  | `false`     | -                                                               |
 | `x`           | String   | `'l'`, `'r'`     | `'r'`       | -                                                               |
-| `y`           | String   | `'col'`, `'row'` | `'row'`     |                                                                 |
+| `y`           | String   | `'col'`, `'row'` | `'row'`     | -                                                               |
 
 ### Footnote
 
