@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.1.0](https://github.com/alexanderdavide/slidev-theme-academic/compare/2.0.1...2.1.0) (2024-12-26)
+
+
+### Features
+
+* enable stacking footnotes vertically ([f629917](https://github.com/alexanderdavide/slidev-theme-academic/commit/f6299177bacd118b3820f31daa0a667783b3a66c))
+
+
+### Bug Fixes
+
+* harmonize left and right spacing of footnotes ([46f8ebb](https://github.com/alexanderdavide/slidev-theme-academic/commit/46f8ebb65397133e52b449db9410d33aaf39baa4))
+* prevent superscript from overlaying filled footnotes ([85531a7](https://github.com/alexanderdavide/slidev-theme-academic/commit/85531a795227a169c5f9d31dc500c2720eb95535))
+
 ### [2.0.1](https://github.com/alexanderdavide/slidev-theme-academic/compare/2.0.0...2.0.1) (2024-09-09)
 
 
