@@ -12,7 +12,7 @@ theme: academic
 ---
 ```
 
-Learn more about [how to use a theme](https://sli.dev/themes/use).
+Learn more about [how to use a theme](https://sli.dev/guide/theme-addon#use-theme).
 
 ## Layouts
 
