@@ -32,8 +32,8 @@
   },
   "prettier": "@alexanderdavide/prettier-config",
   "dependencies": {
-    "@slidev/types": "^0.29.2",
-    "unocss": "^0.62.3"
+    "@slidev/types": "^52.18.0",
+    "unocss": "^66.7.5"
   },
   "devDependencies": {
     "@alexanderdavide/prettier-config": "^1.0.1",
@@ -41,19 +41,18 @@
     "@commitlint/config-conventional": "^16.2.1",
     "@iconify-json/mdi": "^1.1.0",
     "@release-it/conventional-changelog": "^4.2.0",
-    "@slidev/cli": "^51.0.0",
+    "@slidev/cli": "^52.18.0",
     "husky": "^7.0.4",
-    "playwright-chromium": "^1.19.2",
+    "playwright-chromium": "^1.52.0",
     "prettier": "^2.6.2",
     "release-it": "^14.12.5"
   },
   "engines": {
     "node": ">=18.0.0",
-    "slidev": ">=0.47.0"
+    "slidev": ">=0.50.0"
   },
   "slidev": {
     "colorSchema": "both",
-    "highlighter": "shiki",
     "defaults": {
       "fonts": {
         "sans": "Montserrat",
