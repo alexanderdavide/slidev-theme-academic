@@ -12,9 +12,9 @@ jobs:
       - name: checkout code
         uses: actions/checkout@v3
       - name: setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v7
         with:
-          node-version: 18.20.4
+          node-version-file: package.json
       - name: install
         run: npm ci
       - name: build
