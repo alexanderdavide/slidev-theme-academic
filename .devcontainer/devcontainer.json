@@ -1,11 +1,6 @@
 {
   "name": "slidev-theme-academic",
-  "build": {
-    "dockerfile": "./vscode-dev-containers/containers/typescript-node/.devcontainer/Dockerfile",
-    "args": {
-      "VARIANT": "20-bullseye"
-    }
-  },
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:20",
   "customizations": {
     "vscode": {
       "extensions": [
