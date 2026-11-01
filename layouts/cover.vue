@@ -15,19 +15,28 @@
       <div class="absolute bottom-0 font-extralight mb-1 mr-2 right-0 text-xs" v-if="coverBackgroundSource">
         <TextWithOptionalLink :link="coverBackgroundSourceUrl" :text="coverBackgroundSource" />
       </div>
+      <div class="absolute top-10 w-full flex space-around gap-3" v-if="coverLogoUrls">
+        <template v-for="(url, idx) in coverLogoUrls">
+          <figure class="flex flex-col items-center justify-center gap-3">
+            <img :alt="caption" :style="{height: `${coverLogoHeight}px`}" :src="resolveAssetUrl(url)" />
+          </figure>
+        </template>
+      </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
 import { computed } from 'vue';
-import { handleBackground } from '../layout-helper';
+import { handleBackground, resolveAssetUrl } from '../layout-helper';
 
 const {
   coverAuthor: coverAuthorTransferred,
   coverAuthorUrl: coverAuthorUrlTransferred,
   coverBackgroundUrl,
   coverDate = new Date().toLocaleDateString(),
+  coverLogoUrl: coverLogoUrlTransferred,
+  coverLogoHeight = '50',
 } = defineProps<{
   coverAuthor?: string | string[];
   coverAuthorUrl?: string | string[];
@@ -35,10 +44,13 @@ const {
   coverBackgroundSource?: string;
   coverBackgroundSourceUrl?: string;
   coverDate?: string | Date;
+  coverLogoUrl?: string | string[];
+  coverLogoHeight?: string;
 }>();
 
 const coverAuthors = computed(() => transformIntoArray(coverAuthorTransferred));
 const coverAuthorUrls = computed(() => transformIntoArray(coverAuthorUrlTransferred));
+const coverLogoUrls = computed(() => transformIntoArray(coverLogoUrlTransferred));
 const style = computed(() => handleBackground(coverBackgroundUrl, true));
 
 const transformIntoArray = (value: string | string[] | undefined) => {
@@ -46,4 +58,5 @@ const transformIntoArray = (value: string | string[] | undefined) => {
   if (!value) return [];
   return [value];
 };
+
 </script>
