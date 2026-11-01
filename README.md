@@ -26,6 +26,8 @@ Learn more about [how to use a theme](https://sli.dev/guide/theme-addon#use-them
 | `coverBackgroundSource`    | String        | `undefined`                       | -                                                                                 |
 | `coverBackgroundSourceUrl` | String        | `undefined`                       | -                                                                                 |
 | `coverDate`                | String        | `new Date().toLocaleDateString()` | -                                                                                 |
+| `coverLogoUrl`             | Array, String | `undefined`                       | -                                                                                 |
+| `coverLogoHeight`          | String        | `50`                              | -                                                                                 |
 
 ![cover](../assets/example-export/01.png)
 
